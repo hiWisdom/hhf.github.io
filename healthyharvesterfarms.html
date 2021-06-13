@@ -49,16 +49,21 @@
 .products-adverts-images{width:45%;z-index:50px;padding:10px;}
 .products-adverts-images-positionL{float:left;}
 .products-adverts-images-positionR{float:right;}
-.products-adverts-text{width:40%;height:294px;}
+.products-adverts-text{width:100%;height:294px;}
+.products-adverts-image{width:50%;height:294px;}
+.product-text{display:grid;grid-template-columns:auto;grid-template-rows:auto;grid-gap:16px;}
+.products-adverts-text-positionL {grid-column:1;grid-row:1;}
+.products-adverts-text-positionC {grid-column:2;grid-row:1;}
+.products-adverts-text-positionR {grid-column:3;grid-row:1;}
 #css-ul-decoration{position:relative;right:-10%}
 .nav-item1{margin:10px;padding:10px;}
-.companyOverview { width:30%; margin-left:auto;margin-right:auto; color:#70a12d;}
+.companyOverview { width:20%; margin-left:auto;margin-right:auto; color:#70a12d;}
 .cOvtext {font-size:30px;font-weight:bold;}
-.header_icon_css {color:#70a12d;font-size:200%;position:absolute;margin-left:-30px;}
-.a {color:#f58620;font-size:150%;}
+.header_icon_css {color:#70a12d;font-size:150%;position:absolute;margin-left:-30px;}
+.a {color:#f58620;font-size:100%;}
 .a:hover {text-decoration:underline #70a12d;}
 .search-engine{margin-bottom:10px;}
-.search-engine-font{font-size:18px;}
+.search-engine-font{font-size:14px;}
 .trademark {color:#f58620;}
 .trademark:hover {text-decoration:underline #70a12d;}#search_button_css{background:#f58620;color:#70a12d;}
 #trademark { font-size:12px;width:40%; margin-left:auto;margin-right:auto;}
@@ -67,9 +72,10 @@
 @media (max-width:600px) {
 #decoratelogo {width:85%;height:280%;margin-top:5px;}
 .products-adverts-text{height:120px;}
-
+.companyOverview { width:50%;}
 .css-nav-decoration{margin-top:75px;}
 #css-ul-decoration{position:relative;right:-4%}
+.products-adverts-text{width:100%;height:100%;}
 
 
 }
@@ -100,10 +106,10 @@
           <a class="nav-link active text-decoration-none " aria-current="page" href="healthyharvesterfarms.html"><i class="fas fa-home header_icon_css"></i><p class="a">Industry Overview</p></a>
         </li>
         <li class="nav-item nav-item1">
-          <a class="nav-link text-decoration-none " href="#"><i class="fas fa-link header_icon_css"></i><p class="a">Products</p></a>
+          <a class="nav-link text-decoration-none " href="#"><i class="fas fa-link header_icon_css"></i><p class="a">Our Products</p></a>
         </li>
         <li class="nav-item nav-item1">
-          <a class="nav-link text-decoration-none " href="#"><i class="fas fa-blog header_icon_css"></i><p class="a">Services</p></a>
+          <a class="nav-link text-decoration-none " href="#"><i class="fas fa-blog header_icon_css"></i><p class="a">Our Services</p></a>
         </li>
 		  <li class="nav-item nav-item1">
           <a class="nav-link text-decoration-none " href="#"><i class="fas fa-blog header_icon_css"></i><p class="a">Contact Us</p></a>
@@ -138,14 +144,27 @@
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   
   
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
+ 
+
+
+	<div class="carousel-item active" data-bs-interval="10000">
+	<div class="product-text">
+	<div class="products-adverts-text-positionL product-text-position products-adverts-image">
+    <a href=""><h3 class="lead text-decoration-underline product-advert-h3">Live Chicken</h3><Br><img src="productsAdvert_A.jpg" width="150%"></a>
+	</div>
+      <div class="products-adverts-text-positionC product-text-position products-adverts-image">
+	<a href=""><h3 class="lead text-decoration-underline product-advert-h3">Frozen Chicken</h3><Br><img src="productsAdvert_B.jpg" width="150%"></a>
+      </div>
+	  <div class="products-adverts-text-positionR product-text-position products-adverts-image">
+	<a href=""><h3 class="lead text-decoration-underline product-advert-h3">Egg</h3><Br><img src="productsAdvert_C.jpg" width="150%"> </a>
+	</div>
+    </div>
+	</div>
+ <!---<div class="carousel-item active" data-bs-interval="10000">
 	<div class="products-adverts">
 	 <a href="">
 	 <img class="products-adverts-images products-adverts-images-positionL" src="productsAdvert_A.jpg" alt="...">
@@ -156,47 +175,40 @@
 	 <img class="products-adverts-images products-adverts-images-positionR" src="productsAdvert_A.jpg" alt="...">
       </a>
 	</div>
-    </div>
+    </div>--->
     
-	
+	<!---
 	<div class="carousel-item" data-bs-interval="2000">
       <img src="productsAdvert_B.jpg" class="products-adverts-images products-adverts-images-positionL" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1 style="text-align:left;position:relative;left:55%;top:-30px;font-size:25px;display:block;border:1px solid black;width:50%;letter-spacing:1px;">Biden the president of america</h1>
         <p style="text-align:left;position:relative;left:55%;top:-30px;font-size:17px;display:block;border:1px solid black;width:50%;color:#015ed5;letter-spacing:1px;">Maine GOP Sen. Susan Collins also tweeted Friday that she was among the lawmakers who spent three hours with agents on the night shift in McAllen..</p>
       </div>
-    </div>
+    </div>--->
     
 	
 	
 	<div class="carousel-item">
-	<div class="products-adverts-images-positionL products-adverts-text">
-        <h1 style="text-align:left;font-size:25px;border:1px solid black;letter-spacing:1px;">ThredUp CEO: '2021 will great year for apparel retailers' after IPO success</h1>
-        <p style="text-align:left;font-size:17px;border:1px solid black;color:#015ed5;letter-spacing:1px;">Some representative placeholder content for the third slide.</p>
+	<div class="product-text">
+	<div class="products-adverts-text-positionL product-text-position products-adverts-text">
+        <h1 class="lead" style="text-align:center;font-size:25px;border:1px solid black;letter-spacing:1px;">Our Live Chicken</h1>
+        <p style="text-align:left;font-size:17px;border:1px solid black;color:#015ed5;letter-spacing:1px;">Our Live Chicken are rear/raise from dayold. They are well taking care off, vaccinated, well fed with proper nutritious feeds and grown in a peace of mind space which in turn have produce a quality and protenious live chicken.</p>
 		</div>
-      <div class="products-adverts-images-positionR products-adverts-text">
-        <h1 style="text-align:left;font-size:25px;border:1px solid black;letter-spacing:1px;">ThredUp CEO: '2021 will great year for apparel retailers' after IPO success</h1>
-        <p style="text-align:left;font-size:17px;border:1px solid black;color:#015ed5;letter-spacing:1px;">Some representative placeholder content for the third slide.</p>
+      <div class="products-adverts-text-positionC product-text-position products-adverts-text">
+        <h1 class="lead" style="text-align:center;font-size:25px;border:1px solid black;letter-spacing:1px;">Our Forzen Chicken</h1>
+        <p style="text-align:left;font-size:17px;border:1px solid black;color:#015ed5;letter-spacing:1px;">Our forzen chicken are produce from our healthy live chicken from dayold. They are well fed, vaccinated, healthy, protenious and cookable with all styles.</p>
+      </div>
+	  <div class="products-adverts-text-positionR product-text-position products-adverts-text">
+        <h1 class="lead" style="text-align:center;font-size:25px;border:1px solid black;letter-spacing:1px;">Our Eggs</h1>
+        <p style="text-align:left;font-size:17px;border:1px solid black;color:#015ed5;letter-spacing:1px;">Our Eggs are produce from healthy chicken that are disease free.<Br> We sell eggs in different sizes in different quantity patches by egg crate our egg packagig that comes in three in one, six in one, ten in one, tweleve in one, twenty in one and thirty in one of different sizes.</p>
+		<button id="CallNowButton" onclick="CallNowButton()">Call Now </button> &nbsp&nbsp&nbsp&nbsp
       </div>
     </div>
-    
+	</div>
 	
+
 	
-	<div class="carousel-item">
-      <img src="productsAdvert_D.jpg" class="d-block w-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 style="text-align:left;position:relative;left:55%;top:-30px;font-size:25px;display:block;border:1px solid black;width:50%;letter-spacing:1px;">ThredUp CEO: '2021 will great year for apparel retailers' after IPO success</h1>
-        <p style="text-align:left;position:relative;left:55%;top:-30px;font-size:17px;display:block;border:1px solid black;width:50%;color:#015ed5;letter-spacing:1px;">Some representative placeholder content for the third slide.</p>
-      </div>
     </div>
-    <div class="carousel-item">
-      <img src="productsAdvert_E.jpg" class="d-block w-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 style="text-align:left;position:relative;left:55%;top:-30px;font-size:25px;display:block;border:1px solid black;width:50%;letter-spacing:1px;">ThredUp CEO: '2021 will great year for apparel retailers' after IPO success</h1>
-        <p style="text-align:left;position:relative;left:55%;top:-30px;font-size:17px;display:block;border:1px solid black;width:50%;color:#015ed5;letter-spacing:1px;">Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -226,8 +238,6 @@
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
@@ -246,20 +256,6 @@
     </div>
     <div class="carousel-item">
       <img src="productsAdvert_C.jpg" class="d-block w-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 style="text-align:left;position:relative;left:55%;top:-30px;font-size:25px;display:block;border:1px solid black;width:50%;letter-spacing:1px;">ThredUp CEO: '2021 will great year for apparel retailers' after IPO success</h1>
-        <p style="text-align:left;position:relative;left:55%;top:-30px;font-size:17px;display:block;border:1px solid black;width:50%;color:#015ed5;letter-spacing:1px;">Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="productsAdvert_D.jpg" class="d-block w-50" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h1 style="text-align:left;position:relative;left:55%;top:-30px;font-size:25px;display:block;border:1px solid black;width:50%;letter-spacing:1px;">ThredUp CEO: '2021 will great year for apparel retailers' after IPO success</h1>
-        <p style="text-align:left;position:relative;left:55%;top:-30px;font-size:17px;display:block;border:1px solid black;width:50%;color:#015ed5;letter-spacing:1px;">Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="productsAdvert_E.jpg" class="d-block w-50" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h1 style="text-align:left;position:relative;left:55%;top:-30px;font-size:25px;display:block;border:1px solid black;width:50%;letter-spacing:1px;">ThredUp CEO: '2021 will great year for apparel retailers' after IPO success</h1>
         <p style="text-align:left;position:relative;left:55%;top:-30px;font-size:17px;display:block;border:1px solid black;width:50%;color:#015ed5;letter-spacing:1px;">Some representative placeholder content for the third slide.</p>
