@@ -3,7 +3,7 @@
 
 <head>
 
-<link rel="shortcut icon" type="imaage/jpg" href="icon.jpg"><title>Healthy Farms</title>
+<link rel="shortcut icon" type="imaage/jpg" href="icon.jpg"><title>Healthy Harvester Farms</title>
 
 <meta name="viewport" content="width=device-width initial-scale=1"/>
 
@@ -12,13 +12,14 @@
 <link rel="stylesheet" href="file:///C:/Users/HP/Desktop/www.hsam/bootstrap/bootstrap/css/bootstrap.min.css"/>
 <link rel="stylesheet" href="file:///C:/Users/HP/Desktop/onnet.github.io/fontawesome/fontawesome-free-5.14.0-web/css/all.css"/>
 <link rel="stylesheet" href="file:///C:/Users/HP/Desktop/onnet.github.io/bootstrap/bootstrap/css/bootstrap.css"/>
-<link rel="stylesheet" href="healthyfarms.css"/>
+<link rel="stylesheet" href="hhf_stylesheets/hhf_homepage_stylesheet.css"/>
 
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
 
 
@@ -39,53 +40,12 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 <!--<script src="//code.jivosite.com/widget/dk0SSXTGgU" async></script>--->
 
 
-<style>
-*>a{text-decoration:none;}
-#decoratelogo {width:85%;height:280%;margin-top:-25px;}
-.css-nav-decoration{margin-top:20px;}
-.product-advert-h3  {font-weight:bolder;color:#f58620;text-wrap:wrap;font-family:century-gothic}
-.products-adverts{}
-.products-adverts-images{width:45%;z-index:50px;padding:10px;}
-.products-adverts-images-positionL{float:left;}
-.products-adverts-images-positionR{float:right;}
-.products-adverts-text{width:100%;height:294px;}
-.products-adverts-image{width:50%;height:294px;}
-.product-text{display:grid;grid-template-columns:auto;grid-template-rows:auto;grid-gap:16px;}
-.products-adverts-text-positionL {grid-column:1;grid-row:1;}
-.products-adverts-text-positionC {grid-column:2;grid-row:1;}
-.products-adverts-text-positionR {grid-column:3;grid-row:1;}
-.product_word_styling{text-decoration:none;width:100%;margin-left:25%}
-.CallNowButton{width:100%;background:#f58620;border:none;color:#70a12d;font-weight:bolder;text-align:center;font-size:100%;}
-#css-ul-decoration{position:relative;right:-10%}
-.nav-item1{margin:10px;padding:10px;}
-.companyOverview { width:20%; margin-left:auto;margin-right:auto; color:#70a12d;}
-.cOvtext {font-size:30px;font-weight:bold;}
-.header_icon_css {color:#70a12d;font-size:150%;position:absolute;margin-left:-30px;}
-.a {color:#f58620;font-size:15px;}
-.a:hover {text-decoration:underline #70a12d;}
-.search-engine{margin-bottom:10px;}
-.search-engine-font{font-size:14px;}
-.trademark {color:#f58620;}
-.trademark:hover {text-decoration:underline #70a12d;}#search_button_css{background:#f58620;color:#70a12d;}
-#trademark { font-size:12px;width:40%; margin-left:auto;margin-right:auto;}
-
-
-@media (max-width:600px) {
-#decoratelogo {width:85%;height:280%;margin-top:5px;}
-.products-adverts-text{height:120px;}
-.companyOverview { width:50%;}
-.css-nav-decoration{margin-top:60px;}
-#css-ul-decoration{position:relative;right:-4%}
-.products-adverts-text{width:100%;height:100%;}
-#trademark {width:100%;}
-.product-advert-h3  {font-size:100%;}
-.toggle-color{color:#70a12d;}
-.toggle-button-decoration{border-radius:50%;}
-}
-</style>
 <script>
 </script>
 
@@ -104,7 +64,7 @@
   <div class="container-fluid">
     <a class="navbar-brand navbar_logo" href="healthyharvesterfarms.html"><img src="HeadLogo.png" title="Healthy Harvester Farms provides Healthy Food for Healthy Body" id="decoratelogo"/></a>
     <button class="navbar-toggler toggle-button-decoration" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="fas fa-search toggle-color"></span>
+      <span class="fas fa-bars toggle-color"></span>
     </button>
     <div class="collapse navbar-collapse css-nav-decoration" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-" id="css-ul-decoration">
@@ -112,13 +72,13 @@
           <a class="nav-link active text-decoration-none " aria-current="page" href="healthyharvesterfarms.html"><i class="fas fa-home header_icon_css"></i><p class="a">Industry Overview</p></a>
         </li>
         <li class="nav-item nav-item1">
-          <a class="nav-link text-decoration-none " href="#"><i class="fas fa-link header_icon_css"></i><p class="a">Our Products</p></a>
+          <a class="nav-link text-decoration-none " href="#"><i class="fab fa-product-hunt header_icon_css"></i><p class="a">Our Products</p></a>
         </li>
         <li class="nav-item nav-item1">
-          <a class="nav-link text-decoration-none " href="#"><i class="fas fa-blog header_icon_css"></i><p class="a">Our Services</p></a>
+          <a class="nav-link text-decoration-none " href="#"><i class="fab fa-servicestack header_icon_css"></i><p class="a">Our Services</p></a>
         </li>
 		  <li class="nav-item nav-item1">
-          <a class="nav-link text-decoration-none " href="#"><i class="fas fa-blog header_icon_css"></i><p class="a">Contact Us</p></a>
+          <a class="nav-link text-decoration-none " href="#"><i class="far fa-address-book header_icon_css"></i><p class="a">Contact Us</p></a>
         </li>
         
         
@@ -363,7 +323,7 @@
 
 
 
-<div class="companyOverview" id="companyOverview2"><span class="cOvtext" id="cOvtetx2">Our Core Values</span></div>
+<div class="companyOverview" id="companyOverview3"><span class="cOvtext" id="cOvtetx2">Our Core Values</span></div>
 <BR>
 <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -427,24 +387,93 @@
 <BR>
 <BR>
 <BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
 
 <footer>
 
+<div class="footer_flex">
+
+<div class="footer_flex1">
+
+<div class="footer_flex1details" id="footer_flex1A"><div class="footer_flex1A"><h5 class="lead">Customer Feedback</h5></div>
+</div>
+
+<div class="footer_flex1details" id="footer_flex1B"><div class="footer_flex1B"><h5 class="lead">Know your customer</h5></div>
+</div>
+
+<div class="footer_flex1details" id="footer_flex1C"><div class="footer_flex1C"><h5 class="lead">Healthier and Happier Life</h5></div>
+</div>
+
+<div class="footer_flex1details" id="footer_flex1D"><div class="footer_flex1D"><h5 class="lead">Unique Business Offerings</h5></div>
+</div>
+
+</div>
+
+<div class="footer_flex2">
+
+<div class="footer_flex2details" id="footer_flex2A"><div class="footer_flex2A"><h5 class="lead">Egg Production</h5></div>
+</div>
+
+<div class="footer_flex2details" id="footer_flex2B"><div class="footer_flex2A"><h5 class="lead">Chicken Production</h5></div>
+</div>
+
+<div class="footer_flex2details" id="footer_flex2C"><div class="footer_flex2A"><h5 class="lead">Proten Food and Importance</h5></div>
+</div>
+
+
+<div class="footer_flex2details" id="footer_flex2D"><div class="footer_flex2A"><h5 class="lead">Read Importance of chicken to human body</h5></div>
+</div>
+
+</div>
+
+    
+<div class="footer_flex3">
+<h4 class="display-4 lead">Follow us <span id="newInventLineDecoration_On_23_6_2021">|</span></h3>
+<ul class="social_media_ul">
+<li><a href="#"><span class="social_media_text font-weight-bold">Facebook</span>&nbsp&nbsp<i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><span class="social_media_text">Instagram</span>&nbsp&nbsp<i class="fab fa-instagram"></i></a></li>
+<li><a href="#"><span class="social_media_text">Whatsapp</span>&nbsp&nbsp<i class="fab fa-whatsapp"></i></a></li>
+</ul>
+</div>
+
+</div>
+<BR>
 <div id="trademark">
 <span class="trademark text-decoration-none">website content publish by <a style="color:#70a12d;text-decoration:none;" href="healthyharvesterfarms.html">Healthy Harvester Farms</a> <span style="font-weight:bolder; height:50px;">|</span> <i> &copy right reserved <span style="font-family:ariel;font-size:70px;color:#70a12d;">.</span> </i></span>
 </div>
+
 </footer>
+<!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide TopAds ADS1">Slide 1</div>
+        <div class="swiper-slide TopAds ADS2">Slide 2</div>
+        <div class="swiper-slide TopAds ADS3">Slide 3</div>
+        <div class="swiper-slide TopAds ADS4">Slide 4</div>
+        <div class="swiper-slide TopAds ADS5">Slide 5</div>
+        <div class="swiper-slide TopAds ADS6">Slide 6</div>
+        <div class="swiper-slide TopAds ADS7">Slide 7</div>
+        <div class="swiper-slide TopAds ADS8">Slide 8</div>
+        <div class="swiper-slide TopAds ADS9">Slide 9</div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
 </div>
+
+
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
 
 </body>
 
