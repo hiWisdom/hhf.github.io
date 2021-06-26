@@ -1,3 +1,4 @@
+
 *>a{text-decoration:none;}
 #decoratelogo {width:85%;height:280%;margin-top:-25px;}
 .css-nav-decoration{margin-top:20px;}
@@ -5,10 +6,12 @@
 .CallNowButton{width:100%;background:#f58620;border:none;color:#70a12d;font-weight:bolder;text-align:center;font-size:100%;}
 #css-ul-decoration{position:relative;right:-10%}
 .nav-item1{margin:10px;padding:10px;}
+#companyOverview3{width:100%}
+#cOvtext3 {font-size:32px;font-weight:bold;}
 .companyOverview { width:20%; margin-left:auto;margin-right:auto; color:#70a12d;}
 .cOvtext {font-size:30px;font-weight:bold;}
-.header_icon_css {color:#70a12d;font-size:150%;position:absolute;margin-left:-30px;}
-.a {color:#f58620;font-size:15px;}
+.header_icon_css {color:#70a12d;font-size:150%;position:absolute;margin-left:-30px;font-weight:bolder;}
+.a {color:#f58620;font-size:15px;font-weight:bolder;}
 .a:hover {text-decoration:underline #70a12d;}
 .search-engine{margin-bottom:10px;}
 .search-engine-font{font-size:14px;}
@@ -20,7 +23,6 @@
 .footer_flex2{background:transparent;width:100%;height:150px;margin:10px;}
 .footer_flex3{background:transparent;width:100%;height:150px;margin:10px;}
 .footer_flex4{background:transparent;width:100%;flex-grow:10;justify-content:center;align-items:center;}
-#companyOverview3{width:30%}
 ul{color:#f58620}
 .social_media_text{color:#f58620;}
 #newInventLineDecoration_On_23_6_2021{height:800px;}
@@ -29,7 +31,7 @@ ul{color:#f58620}
 .display_visible{display:none;}
 .TopAds{border:1px solid black; border-radius:5%;}
 button{width:100%}
-
+.footer_fex3_display4{color:#70a12d;font-weight:bolder;letter-spacing:2px;font-size:400%;}
 
       .swiper-container {width:75%; height:300px;}
 
@@ -108,7 +110,6 @@ width:100px;height:300px;
 .toggle-color{color:#70a12d;}
 .toggle-button-decoration{border-radius:2%; width:20%;font-size:200%;}
 .footer_flex{flex-wrap:wrap;}
-#companyOverview3{width:60%}
 .footer_flex1{width:100%;height:100%;margin:20px;}
 .footer_flex2{width:100%;height:100%;margin:20px;}
 .footer_flex3{width:100%;height:100%;margin:20px;}
