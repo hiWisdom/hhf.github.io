@@ -17,11 +17,11 @@
 
 
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!---<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
+--->
 
 
 <script src="file:///C:/Users/HP/Desktop/domblog.github.io/bootstrap/bootstrap/js/bootstrap.bundle.js"></script>
@@ -37,7 +37,7 @@
 
 
 <!-- Optional JavaScript; choose one of the two! -->    <!-- Option 1: Bootstrap Bundle with Popper -->    <!-- Option 2: Separate Popper and Bootstrap JS -->
-
+<!---
 <script src="https://kit.fontawesome.com/62f72df755.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
@@ -45,8 +45,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<!--<script src="//code.jivosite.com/widget/dk0SSXTGgU" async></script>--->
+<script src="//code.jivosite.com/widget/dk0SSXTGgU" async></script>--->
 
 
 <script>
@@ -298,7 +297,7 @@
 
 <div class="footer_flex1details footerLinkBox" id="footer_flex1A">
 <button id="customerFeedback" class="footer_flex_buttons" onclick="displayA()">Customer Feedback</button>
-<div id="footerFlex1A" style="border:1px solid black;">
+<div id="footerFlex1A" style="border:1px solid black;" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Customer Feedback Form</h5>
 <a href="#">We value you, We value your needs, We value your opinion, Your feedback will serve us better.<br>
 Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
@@ -458,14 +457,12 @@ $(document).ready( function() {
         slidesPerView: 3,
         spaceBetween: 60,
 
-
     pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
       });
 	  
-	
 var flexOneADisplay = document.getElementById("footerFlex1A");
 var flexOneBDisplay = document.getElementById("footerFlex1B");
 var flexOneCDisplay = document.getElementById("footerFlex1C");
@@ -476,6 +473,8 @@ var flexTwoCDisplay = document.getElementById("footerFlex2C");
 var flexTwoDDisplay = document.getElementById("footerFlex2D");
 
 flexOneADisplay.style.display="none";
+flexOneADisplay.style.transitionProperty="height";
+
 flexOneBDisplay.style.display="none";
 flexOneCDisplay.style.display="none";
 flexOneDDisplay.style.display="none";
