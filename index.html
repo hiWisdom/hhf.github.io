@@ -111,6 +111,18 @@
 <BR>
 <BR>
 <!-- Products Swiper Begins-->
+<div id="to_the_top_button" class="to_the_top_button"><a href="#">Back To The Top</a></div>
+<!---<script>
+window.onscroll = function() {
+if (pageOffset >= 1000) {
+document.getElementById("to_the_top_button").style.visibility="visible";
+}
+else {
+document.getElementById("to_the_top_button").style.visibility="hidden";
+}
+
+};
+</script>--->
 <div class="swiper-container mySwiper">
       
 	  <div class="swiper-wrapper">
@@ -288,7 +300,7 @@
 </main>
 <BR>
 <BR>
-<footer>
+<footer class="container-fluid">
 
 
 <div class="footer_flex">
@@ -518,6 +530,14 @@ if(flexTwoDDisplay.style.display === "block"){ flexTwoDDisplay.style.display="no
 else {flexTwoDDisplay.style.display="block";}
 }
 
+var toTop = document.getElementById("to_the_top_button");
+
+window.onscroll = function() {
+if (pageOffset >= 750) { toTop.style.visibility="visible";
+}
+else{ toTop.style.visibility="hidden";
+}
+};
 </script>
 
 
