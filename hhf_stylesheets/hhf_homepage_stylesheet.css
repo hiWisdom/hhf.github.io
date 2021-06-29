@@ -28,13 +28,16 @@ ul{color:#f58620}
 #newInventLineDecoration_On_23_6_2021{height:800px;}
 .footer_flex1details {border:2px solid black;margin:10px;}
 .footer_flex2details {border:2px solid black;margin:10px;}
+.footerLinkBox {border: 1px solid #70a12d;}
 .display_visible{display:none;}
 .TopAds{border:1px solid black; border-radius:5%;}
 button{width:100%}
-.footer_fex3_display4{color:#70a12d;font-weight:bolder;letter-spacing:2px;font-size:400%;}
-
-      .swiper-container {width:75%; height:300px;}
-
+.footer_fex3_display4{color:#70a12d;font-weight:bolder;letter-spacing:2px;font-size:500%;}
+.social_media_icon{margin:10px;color:#70a12d;border: 1px solid #f58620; border-radius:100%;padding:2%;font-size:25px;}
+.social_media_text{margin:10px;font-size:20px;}
+.social_media_text:hover{text-decoration:underline #70a12d;}
+.swiper-container {width:75%; height:300px;}
+#to_the_top_button{visibility:hidden}
       .swiper-slide {
         text-align: center;
         font-size: 18px;
@@ -108,10 +111,11 @@ width:100px;height:300px;
 #trademark {width:100%;}
 .product-advert-h3  {font-size:100%;}
 .toggle-color{color:#70a12d;}
-.toggle-button-decoration{border-radius:2%; width:20%;font-size:200%;}
+.toggle-button-decoration{border-radius:2%; width:20%;font-size:350%;}
 .footer_flex{flex-wrap:wrap;}
 .footer_flex1{width:100%;height:100%;margin:20px;}
 .footer_flex2{width:100%;height:100%;margin:20px;}
 .footer_flex3{width:100%;height:100%;margin:20px;}
-
+.footerLinkBox {margin-top:25%;margin-bottom:25%;width:100%; border:1px solid #70a12d;}
+.footer_flex_buttons{height:62px;background:#70a12d;color:#f58620;font-weight:bolder;font-size:20px;letter-spacing:2px;border-radius:10%}
 }
