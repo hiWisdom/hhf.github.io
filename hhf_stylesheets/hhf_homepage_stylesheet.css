@@ -1,8 +1,8 @@
 
-*>a{text-decoration:none;}
+body { background: #eee;font-family: Helvetica Neue, Helvetica, Arial, sans-serif;font-size: 14px;color: #000;margin: 0;padding: 0;}
 #decoratelogo {width:85%;height:280%;margin-top:-25px;}
 .css-nav-decoration{margin-top:20px;}
-.product-advert-h3  {font-weight:bolder;color:#f58620;text-wrap:wrap;font-family:century-gothic}
+.product-advert-h3  {font-weight:bolder;color:#70a12d;text-wrap:wrap;}
 .CallNowButton{width:100%;background:#f58620;border:none;color:#70a12d;font-weight:bolder;text-align:center;font-size:100%;}
 #css-ul-decoration{position:relative;right:-10%}
 .nav-item1{margin:10px;padding:10px;}
@@ -30,78 +30,45 @@ ul{color:#f58620}
 .footer_flex2details {border:2px solid black;margin:10px;}
 .footerLinkBox {border: 1px solid #70a12d;}
 .display_visible{display:none;}
-.TopAds{border:1px solid black; border-radius:5%;}
+.TopAds{border-radius:5%;}
 button{width:100%}
 .footer_fex3_display4{color:#70a12d;font-weight:bolder;letter-spacing:2px;font-size:500%;}
 .social_media_icon{margin:10px;color:#70a12d;border: 1px solid #f58620; border-radius:100%;padding:2%;font-size:25px;}
 .social_media_text{margin:10px;font-size:20px;}
 .social_media_text:hover{text-decoration:underline #70a12d;}
 .swiper-container {width:75%; height:300px;}
-#to_the_top_button{visibility:hidden}
-      .swiper-slide {
+.mySwiper{border:2px solid #70a12d;border-left:none;border-top:none;border-radius:10%;}
+.swiper-wrapper{background-color:}
+.swiper-wrap-content{background-color:#f58620;height:100%;border-radius:5%}
+.swiper-content {background-color:white;height:75%;width:90%;margin-top:15%;margin-right:auto;margin-left:auto;border-radius:3%;box-shadow:1px 1px 1px 1px white;}
+.product-pictures > img{ 
+
+}
+.swiper-slide {
+		box-shadow:1px 1px 5px 5px #70a12d;
         text-align: center;
         font-size: 18px;
         background: #fff;
-width:100px;height:300px;
+		width:100px;
+		height:100%;
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
         display: flex;
         -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
         justify-content: center;
         -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
         align-items: center;
       }
 
-      .swiper-slide img {
-        display: block;
-        width: 70%;
-        height: 70%;
-        object-fit: cover;
-      }
-
-
-
-
+	 
+	  
+	  
 @media (max-width:600px) {
-	
-      .swiper-container {width:100%; height:200px;}
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-width:100px;height:300px;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-      }
-
-
-
-      .swiper-slide img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      background-position:center center;
-	  background-size:cover;
-	  }
-
+.swiper-container{display:;}
+.slideshow-container{display:inline-block;}
+.swiper-content {margin-top:12%;}
 #decoratelogo {width:75%;height:270%;margin-top:5px;}
 .products-adverts-text{height:120px;}
 .companyOverview { width:50%;}
@@ -116,6 +83,7 @@ width:100px;height:300px;
 .footer_flex1{width:100%;height:100%;margin:20px;}
 .footer_flex2{width:100%;height:100%;margin:20px;}
 .footer_flex3{width:100%;height:100%;margin:20px;}
+.footer_fex3_display4{font-weight:bolder;font-size:300%;}
 .footerLinkBox {margin-top:25%;margin-bottom:25%;width:100%; border:1px solid #70a12d;}
 .footer_flex_buttons{height:62px;background:#70a12d;color:#f58620;font-weight:bolder;font-size:20px;letter-spacing:2px;border-radius:10%}
 }
