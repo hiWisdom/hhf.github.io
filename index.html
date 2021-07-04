@@ -103,7 +103,36 @@
 <main class="container">
 <BR>
 <BR>
-<BR>
+
+<div class="mainlayout">
+
+
+<!---container main text start----------->
+
+<div class="welcome_advert">
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+<div class="carousel-inner container-fluid">
+    <div class="carousel-item active">
+      <div id="welcome_advert1"> 
+	  <div class="container">
+	  <h2 class="headeradvertword1"><a href=""><span class="adsword ads1">WELCOME TO HEALTHY HARVESTER FARMS INDUSTRIES </span></a></h2>
+	  </div>
+	  </div>
+	  <!--<img src="test1.jpg" height="180px" width="100%" alt="...">-->
+	  </div>
+    <div class="carousel-item">
+      <!--<img src="test2.jpg" height="180px" width="100%" alt="...">--->
+	<div id="welcome_advert2"> 
+	  <div class="container">
+	  <h2 class="headeradvertword2"><a href=""><span class="adsword ads2">OUR BUSINESS PRODUCTION IS YET TO COMMENCE <span class="animate1">but in the main time, Stay With US</span> LAUCHING SOON</span></a></h2>
+	  </div>
+	  </div>
+	  </div>
+	</div>
+	</div>
+	</div>
+</div>
 <BR>
 <BR>
 <BR>
@@ -111,12 +140,12 @@
  <div class="companyOverview" id="companyOverview1"><span class="cOvtext" id="cOvtetx1">Our Products</span></div>
 <div class="swiper-container mySwiper">    
 	<div class="swiper-wrapper">
-        <div class="swiper-slide TopAds ADS1">
-		<div class="swiper-wrap-content">
+        <div class="swiper-slide TopAds" onmouseover="ADS1()">
+		<div class="swiper-wrap-content" id="swiper-wrap-content">
 		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Broiler Chicken</h3>
 		<div class="swiper-content">
 		<a href="">
-		<div class="product-pictures"><IMG SRC="broiler1.JPG" WIDTH="100%" HEIGHT="100%"/></div>
+		<div class="product-pictures"><IMG SRC="broiler1.JPG" WIDTH="100%" HEIGHT="100%" id="img_imgs"/></div>
 		</a>
 		</div>
 		</div>
@@ -175,34 +204,28 @@
 	<div class="swiper-wrapper">
         <div class="swiper-slide TopAds ADS1">
 		<a href="">
-		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Vision</h3>
-		<p>Our vision is to contribute in transforming agriculture</p>
+		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3"><b>Wholesale Of Live Chicken</b></h3>
+<!---		<p>Our vision is to contribute in transforming agriculture</p>--->
 		</a>
 	</div>
 	
     <div class="swiper-slide TopAds ADS2">
 		<a href="">
-		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Mission</h3>
-		<p>Our mission is to provide food to the people</p>
+		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3"><b>Wholesale Of Eggs</b></h3>
+<!---		<p>Our mission is to provide food to the people</p>--->
 		</a>
 	</div>
         
 	<div class="swiper-slide TopAds ADS3">
 	<a href="">
-	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Objective</h3>
-	<ul>
-		<li>Zero Hunger</li>
-		<li>Agricultural Poverty Eradication</li>
-		<li>Socio Economic Development</li>
-		<li>Youth Development</li>
-		</ul>
+	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3"><b>Livestock Management Consultation</b></h3>
 		</a>
 	</div>
     
 	<div class="swiper-slide TopAds ADS4">
 	<a href="">
-	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Core Values</h3>
-		<ul>
+	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3"><b>Crop Management Consultation</b></h3>
+<!---		<ul>
 		<li>Discipline</li>
 		<li>Passion</li>
 		<li>Team Work</li>
@@ -210,7 +233,7 @@
 		<li>Passion</li>
 		<li>Wealth</li>
 		<li>Growth</li>
-		</ul>
+		</ul>---->
 		</a>
 	</div>
       <!---  <div class="swiper-slide">Slide 5</div>
@@ -234,34 +257,34 @@
 	<div class="swiper-wrapper">
         <div class="swiper-slide TopAds ADS1">
 		<a href="">
-		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Vision</h3>
-		<p>Our vision is to contribute in transforming agriculture</p>
+		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Industry Vision</h3>
+		<!---<p>Our vision is to contribute in transforming agriculture</p>--->
 		</a>
 	</div>
 	
     <div class="swiper-slide TopAds ADS2">
 		<a href="">
-		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Mission</h3>
-		<p>Our mission is to provide food to the people</p>
+		<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Industry Mission</h3>
+		<!---<p>Our mission is to provide food to the people</p>--->
 		</a>
 	</div>
         
 	<div class="swiper-slide TopAds ADS3">
 	<a href="">
-	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Objective</h3>
-	<ul>
+	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Industry Objective</h3>
+<!---	<ul>
 		<li>Zero Hunger</li>
 		<li>Agricultural Poverty Eradication</li>
 		<li>Socio Economic Development</li>
 		<li>Youth Development</li>
-		</ul>
+		</ul>-->
 		</a>
 	</div>
     
 	<div class="swiper-slide TopAds ADS4">
 	<a href="">
-	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Core Values</h3>
-		<ul>
+	<h3 style="text-align:center;font-size:25px;letter-spacing:1px;" class="display-4 lead text-decoration-none product-advert-h3">Our Indsutry Core Values</h3>
+<!---		<ul>
 		<li>Discipline</li>
 		<li>Passion</li>
 		<li>Team Work</li>
@@ -269,7 +292,7 @@
 		<li>Passion</li>
 		<li>Wealth</li>
 		<li>Growth</li>
-		</ul>
+		</ul>--->
 		</a>
 	</div>
       <!---  <div class="swiper-slide">Slide 5</div>
@@ -300,8 +323,8 @@
 <div class="footer_flex1">
 
 <div class="footer_flex1details footerLinkBox" id="footer_flex1A">
-<button id="customerFeedback" class="footer_flex_buttons" onclick="displayA()">Customer Feedback</button>
-<div id="footerFlex1A">
+<button id="customerFeedback" class="footer_flex_buttons" onclick="displayA()"><h3 class="hthree">Customer Feedback</h3></button>
+<div id="footerFlex1A" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Customer Feedback Form</h5>
 <a href="#">We value you, We value your needs, We value your opinion, Your feedback will serve us better.<br>
 Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
@@ -320,8 +343,8 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 <div class="footer_flex1details footerLinkBox" id="footer_flex1B">
-<button id="KnowYourCustomer" class="footer_flex_buttons" onclick="displayB()">Know Your Customer</button>
-<div id="footerFlex1B" class="footer_content_flex>
+<button id="KnowYourCustomer" class="footer_flex_buttons" onclick="displayB()"><h3 class="hthree">Know Your Customer</h3></button>
+<div id="footerFlex1B" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">K&nbspY&nbspC</h5>
 <a href="#">
 We value you, We value your needs, We value your opinion, Your feedback will serve us better.<br>
@@ -330,7 +353,7 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 <div class="footer_flex1details footerLinkBox" id="footer_flex1C">
-<button id="HealthierandHappierLife" class="footer_flex_buttons" onclick="displayC()">Healthier and Happier Life</button>
+<button id="HealthierandHappierLife" class="footer_flex_buttons" onclick="displayC()"><h3 class="hthree">Healthier and Happier Life</h3></button>
 <div id="footerFlex1C" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Discover Healthier and Happier Life</h5>
 <a href="#">We value you, We value your needs, We value your opinion, Your feedback will serve us better.<br>
@@ -339,7 +362,7 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 <div class="footer_flex1details footerLinkBox" id="footer_flex1D">
-<button id="UniqueBusinessOfferings" class="footer_flex_buttons" onclick="displayD()">Unique Business Offerings</button>
+<button id="UniqueBusinessOfferings" class="footer_flex_buttons" onclick="displayD()"><h3 class="hthree">Unique Business Offerings</h3></button>
 <div id="footerFlex1D" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Unique Business Offerings</h5>
 <a href="#">We value you, We value your needs, We value your opinion, Your feedback will serve us better.<br>
@@ -350,11 +373,10 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 
-
 <div class="footer_flex2">
 
 <div class="footer_flex2details footerLinkBox" id="footer_flex2A">
-<button id="customerFeedback" class="footer_flex_buttons" onclick="displayE()">Egg Production</button>
+<button id="customerFeedback" class="footer_flex_buttons" onclick="displayE()"><h3 class="hthree">Egg Production</h3></button>
 <div id="footerFlex2A" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Egg Production INDUSTRIES</h5>
 <a href="#">Our egg production is produce by healthy and well fertile chickens. Also, knowing that this chicken are well fertile the output of the eggs are protenious.</a>
@@ -373,7 +395,7 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 <div class="footer_flex2details footerLinkBox" id="footer_flex2B">
-<button id="KnowYourCustomer" class="footer_flex_buttons" onclick="displayF()">Chicken Production</button>
+<button id="KnowYourCustomer" class="footer_flex_buttons" onclick="displayF()"><h3 class="hthree">Chicken Production</h3></button>
 <div id="footerFlex2B" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Chicken Production INDUSTRIES</h5>
 <a href="#">The Chicken industries comprises of table meat chicken and table meat egg laying chicken.
@@ -384,7 +406,7 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 <div class="footer_flex2details footerLinkBox" id="footer_flex2C">
-<button id="HealthierandHappierLife" class="footer_flex_buttons" onclick="displayG()">Proten Food and Importance</button>
+<button id="HealthierandHappierLife" class="footer_flex_buttons" onclick="displayG()"><h3 class="hthree">Proten Food and Importance</h3></button>
 <div id="footerFlex2C" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Proten Food and Importance In Discovering Healthier and Happier Life</h5>
 <a href="#">Value growth in human is important and best supported daily with a compusolry proteinous diet.<BR>
@@ -394,7 +416,7 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 <div class="footer_flex2details footerLinkBox" id="footer_flex2D">
-<button id="UniqueBusinessOfferings" class="footer_flex_buttons" onclick="displayH()">Read Importance of chicken to human body</button>
+<button id="UniqueBusinessOfferings" class="footer_flex_buttons" onclick="displayH()"><h3 class="hthree">Read Importance of chicken to human body</h3></button>
 <div id="footerFlex2D" class="footer_content_flex">
 <h5 class="lead" style="text-align:center;">Read Importance of chicken to human body</h5>
 <a href="#">Human Value For Chicken and its production has supported healthy and happy lifestyle.</a>
@@ -402,26 +424,41 @@ Tell US HOW WE CAN IMPROVE OUR SERVICES</a>
 </div>
 
 </div>
-
-
     
+	
 <div class="footer_flex3">
 <h3 class="display-4 lead footer_flex3_display4">Follow us <span id="newInventLineDecoration_On_23_6_2021">|</span></h3>
 <ul class="social_media_ul">
 <li><a href="#"><span class="social_media_text">Facebook</span>&nbsp&nbsp<i class="fab fa-facebook social_media_icon"></i></a></li>
 <li><a href="#"><span class="social_media_text">Instagram</span>&nbsp&nbsp<i class="fab fa-instagram social_media_icon"></i></a></li>
-<li><a href="#"><span class="social_media_text">Whatsapp</span>&nbsp&nbsp<i class="fab fa-whatsapp social_media_icon"></i></a></li>
+<li><a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank""><span class="social_media_text">Whatsapp</span>&nbsp&nbsp<i class="fab fa-whatsapp social_media_icon"></i></a></li>
 </ul>
 </div>
 
-
-
-<div class="footer_flex4" id="trademark">
-<a href="healthyharvesterfarms.html"><img src="HeadLogo.png" width="90" height="70" title="The Healthy Harvester Farms"/>
-<p style="font-size:17px; color:white;">&copy &nbsp&nbsp 2021</p></a>
+    
+<div class="footer_flex4">
+<div class="footer_text_ul">
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspAbout Us</span></a></br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspBusiness Offerings</span></a><br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspCareers</span></a><br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspEnquires</span></a><br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspIndustries Overview</span></a><br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspMentor</span></a><br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspProducts</span></a><br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspServices</span></a><br><br>
+<a href="#"><span class="footer_text4"><span class="shortcut-link">*</span>&nbspTerms and Conditions</span></a>
+</div>
 </div>
 
 
+
+
+<div class="footer_flex_trademark" id="trademark">
+<div id="trademark-details">
+<a href="healthyharvesterfarms.html"><img src="HeadLogo.png" width="90" height="70" title="The Healthy Harvester Farms" id="trade-mark-image"/>
+<p style="font-size:12px; color:white;text-align:center;" id="trade_mark">&copy &nbsp 2021</p></a>
+</div>
+</div>
 
 </div>
 
@@ -450,7 +487,13 @@ $(document).ready( function() {
 
     <script>
   
-
+  //function ADS1() {
+  
+//document.getElementById("img_imgs").src="Ask-the-experts-Raw-chicken.jpg";
+  //;
+  
+  
+  
     <!-- Initialize Swiper --->
   	var swiper = new Swiper(".mySwiper", {
 slidesPerView: 1,
