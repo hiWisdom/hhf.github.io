@@ -17,15 +17,17 @@
 <link rel="stylesheet" href="folders/fontawesome/css/fontawesome.css"/>
 <link rel="stylesheet" href="folders/jqueryL/jquery-ui/jquery-ui.css">
 <link rel="stylesheet" href="folders/jqueryL/jqueryuiA/jquery-ui.css">
+<link rel="stylesheet" href="folders/jqueryL/jqueryuiA/jquery-ui.structure.css">
+<link rel="stylesheet" href="folders/jqueryL/jqueryuiA/jquery-ui.theme.css">
+
 
 <script src="folders/bootstrap/js/bootstrap.js"></script>
 <script src="folders/fontawesome/js/all.js"></script>
+<script src="folders/queryL/jqueryuiA/jquery-ui.js"></script>
 
 
 
 <style>
-
-#website-logo{float:left;margin:0;padding:0;}
 
 img{max-width:100%; height:18vh;}
 
@@ -35,7 +37,7 @@ MAIN{}
 
 .website-header1{height:18vh;background:#89c557;border:;width:100%;background:cover; }
 
-.vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:100%;border:none;}
+.vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:150vh;border:none;}
 
 
 
@@ -46,12 +48,13 @@ MAIN{}
 
 #message4{text-align:center;color:#04AA6D;}
 
-
+.contents{background:white;}
 
 .website-footer{}
 .website-footerA-header{color:white;}
 .website-footerA-header:hover{color:black;}
 
+.decicon:hover{transform:scale(2) rotate(-20deg);}
 
 .welcome-message {line-height:2em;}
 
@@ -67,15 +70,22 @@ MAIN{}
 
 .content-date-update{color:#89c557;font-weight:bolder;}
 
+.footer-panels-images{display:flex;}
 
+#marketing-links-F:hover{text-decoration:underline 3px #1877f2;}
+#marketing-links-I:hover{text-decoration:underline 3px #c32aa3;}
+#marketing-links-W:hover{text-decoration:underline 3px #25d366;}
 
 
 
 @media (max-width:600px) {
 
 
-img{max-width:100%; 18vh;}
+.website-header1{height:11vh; }
 
+img{width:180px; height:11vh;}
+
+.footer-panels-images{flex-direction:column;}
 
 .footer-panels-images{background-color:rgba(0,0,21,); padding:0;margin:0;border:1px solid #89c557;}
 
@@ -84,9 +94,6 @@ img{max-width:100%; 18vh;}
 .products-images .footer-products-image-display{width:50vh; height:30vh;}
 
 }
-
-/*.web-main {border:none;background-image:url("folders/images/chick-banner.jpg"); background-repeat:no repeat; background-position:center;background-size:cover; opacity:0.9;z-index:-1;margin:0;padding:0;}*/
-
 
 </style>
 
@@ -97,16 +104,17 @@ img{max-width:100%; 18vh;}
 <BODY>
 
 
+<script>
+ alert("Be Careful Website Undergoing Maintance. ");
 
+</script>
 
 
 
 <HEADER class="container-fluid website-header1 sticky-top">
 
 <div class="container">
-<img src="hhflogo.png" id="company-website-logo-healthyharvesterfarms"/>
-<!--<div id="website-logo" class="website-logo"><a href="index.html"><img src="hhflogo.png" id="company-website-logo-healthyharvesterfarms"/></a></div>-->
-</div>
+<a href="index.html"><img src="hhflogo.png" id="company-website-logo-healthyharvesterfarms"/></a></div>
 
 </HEADER>
 
@@ -121,19 +129,31 @@ img{max-width:100%; 18vh;}
 
 
 <MAIN class="container-fluid web-main">
-<video class="vid-bg" autoplay loop muted><source src=""><source src="folders/videos/poultry-feed-and-day-old-chicks.mp4"><source src="folders/videos/poultry-feed-and-day-old-chicks.ogg"><source src="folders/videos/poultry-feed-and-day-old-chicks.webm"></video>
 
-<div class="container website-header0">
+
+<video class="vid-bg" autoplay loop muted>
+<source src="folders/videos/poultry-feed-and-day-old-chicks.mp4">
+<source src="folders/videos/poultry-feed-and-day-old-chicks.ogg">
+<source src="folders/videos/poultry-feed-and-day-old-chicks.webm">
+</video>
+
+
+<div id="popUpAuth">
+
+<img src="hhflogo.png"/>
+<!--<h2 style="color:#89c557;"><samp>Healthy Harvester Farms is a commercial agriculture industry, focus on animal and crop management for the production of food</samp></h2>--->
+<br><br>
+<h4 style="color:#89c557;"><samp>Website Under Maintainace.</samp></h4>
+<br>
+<h5 style="color:#89c557;"><samp>More over you can navigate website.</samp></h5>
+<h4 style="color:#89c557;"><samp>For Enquiries Please/Kindly Contact <a href="target-blank">07052223261</a></samp></h4>
+<button onclick="close()" id="closeButton" title="Close button is on your top right"> Close </button>
+
 </div>
 
-<BR>
-<BR>
+<script>
 
-
-
-
-
-<div class="container-fluid website-middle">
+</script>
 
 
 
@@ -163,7 +183,7 @@ img{max-width:100%; 18vh;}
 	<div class="carousel-item" data-interval="8000">
       <div id="welcome_advert1"> 
 	  <div class="container">
-<h3 id="message4 welcome-message"><b><samp>Healthy Harvester Farms is a Commercial Agricultural Farm Focus On Animal And Crop Productions.</samp> </b> <span style="color:white; font-size:30px;">.</span></h3>
+<h3 id="message4 welcome-message"><b>Healthy Harvester Farms is a Commercial Agricultural Farm Focus On Animal And Crop Productions. </b> <span style="color:white; font-size:30px;">.</span></h3>
 	  </div>
 	  </div>
 	  <!--<img src="test1.jpg" height="180px" width="100%" alt="...">-->
@@ -173,7 +193,7 @@ img{max-width:100%; 18vh;}
       <!--<img src="test2.jpg" height="180px" width="100%" alt="...">--->
 	<div id="welcome_advert2"> 
 	  <div class="container">
-<h3 id="message4 welcome-message"><b><samp>Healthy and Rich Foods Starts From Day <mark>1</mark></samp></b> <span style="color:white; font-size:30px;">Healthy Food Healthy Body</span></h3>
+<h3 id="message4 welcome-message"><b>Healthy and Rich Foods Starts From Day <mark>1</mark></b> <span style="color:white; font-size:30px;">Healthy Food Healthy Body</span></h3>
 	  </div>
 	  </div>
 	  </div>
@@ -182,7 +202,7 @@ img{max-width:100%; 18vh;}
       <!--<img src="test2.jpg" height="180px" width="100%" alt="...">--->
 	<div id="welcome_advert2"> 
 	  <div class="container">
-<h3 id="message4 welcome-message"><b><samp>My Ten Year Old Son raise fifteen Chickens every year,  He uses it to support communities</samp></b> <span style="color:white; font-size:30px;">.</span></h3>
+<h3 id="message4 welcome-message"><b>My Ten Year Old Son raise fifteen Chickens every year,  He uses it to support communities</b> <span style="color:white; font-size:30px;">.</span></h3>
 	  </div>
 	  </div>
 	  </div>
@@ -191,7 +211,7 @@ img{max-width:100%; 18vh;}
       <!--<img src="test2.jpg" height="180px" width="100%" alt="...">--->
 	<div id="welcome_advert2"> 
 	  <div class="container">
-<h3 id="message4 welcome-message"><b><samp>Can i live long without healthy food ?</samp></b> <span style="color:white; font-size:30px;">No you can't, Balance diet promotes Longer and Prosperous Life.</span></h3>
+<h3 id="message4 welcome-message"><b>Can i live long without healthy food ?</b> <span style="color:white; font-size:30px;">No you can't, Balance diet promotes Longer and Prosperous Life.</span></h3>
 	  </div>
 	  </div>
 	  </div>
@@ -200,43 +220,35 @@ img{max-width:100%; 18vh;}
       <!--<img src="test2.jpg" height="180px" width="100%" alt="...">--->
 	<div id="welcome_advert2"> 
 	  <div class="container">
-<h3><span class="message2 welcome-message"><b><samp>We Are Happy To Be Part Of Agricultural Emerging Market<samp></b><span> </h3>
+<h3><span class="message2 welcome-message"><b>We Are Happy To Be Part Of Agricultural Emerging Market</b><span></h3>
 	  </div>
 	  </div>
 	  </div>
+	  
+	  
+	  
 
-	<div class="carousel-item">
-      <!--<img src="test2.jpg" height="180px" width="100%" alt="...">--->
+	<!--<div class="carousel-item">
 	<div id="welcome_advert2"> 
 	  <div class="container">
-<h3><samp><span class="message2 welcome-message"><b>PART OF OUR SUSTAINABLE DEVELOPNMENT GOALS IS ZERO HUNGER,<br> we are promoting Food Security in our communities from Zero <mark>0</mark> To One Hundred <mark>100</mark> Percentage <mark>100%</mark> </b><span></samp> </h3>
+<h3><span class="message2 welcome-message"><b>PART OF OUR SUSTAINABLE DEVELOPNMENT GOALS IS ZERO HUNGER,<br> we are promoting Food Security in our communities from Zero <mark>0</mark> To One Hundred <mark>100</mark> Percentage <mark>100%</mark> </b><span></h3>
 	  </div>
 	  </div>
-	  </div>
-
-
-
-
-</div>
-</div>
-</div>
-
-
+	  </div>--->
 
 
 
 
 
 </div>
-
-</div>
 </div>
 </div>
 
-</div>
+
 </MAIN>
 
 
+<!--Breaks--->
 <BR>
 <BR>
 <BR>
@@ -263,7 +275,7 @@ img{max-width:100%; 18vh;}
 <BR>
 <BR>
 <BR>
-
+<!--Breaks--->
 
 	
 
@@ -284,9 +296,15 @@ img{max-width:100%; 18vh;}
 <div class="footer-panels-images">
 
 <div class="products-images"><a href="">
+<h5 class="products-images-title"><samp>Day Old Broiler Chicken</samp></h5><sub><p><mark> enquires/ order now/ read more <i class="fas fa-facbook"></i></mark></p></sub><br>
+<img class="footer-products-image-display" src="folders/images/our-products/productsAdvert_D.jpg">
+</a></div>
+
+<div class="products-images"><a href="">
 <h5 class="products-images-title"><samp>Table Size Broiler Chicken</samp></h5><sub><p><mark> enquires/ order now/ read more <i class="fas fa-facbook"></i></mark></p></sub><br>
 <img class="footer-products-image-display" src="folders/images/our-products/p2.jpg">
 </a></div>
+
 </div>
 
 		</div>
@@ -403,7 +421,7 @@ Phone: <a href="">07052223261</a>
 
 <div class="container website-footer">
 <BR><BR>
-<div class="quick-links"><span style="color:#89c557;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank"" class="marketing-links" id="marketing-links"><span style="color:#25d366;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:#25d366;"></i></a><BR> 
+<div class="quick-links"><span style="color:#89c557;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-F"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-I"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank" class="marketing-links" id="marketing-links-W"><span style="color:#25d366;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:#25d366;"></i></a><BR> 
 &nbsp  <p class="content-date-update"><mark id="content-date-update">&copy </mark> <mark id="javascripted-content-date-update"><script>var todayDate = new Date(); var shortDate = todayDate.toDateString(); document.write(shortDate);</script></mark><samp>- Healthy Harvester Farms.</samp></p></div>
 </div>
 
@@ -430,7 +448,11 @@ $("#div").accordion({active: "none",collapsible:true, animate: 700, heightStyle:
 $("#divA").accordion({active: "none",collapsible:true, animate: 700, heightStyle:"content", icons:{header:"ui-icon-plus", activeHeader:"ui-icon-minus"}});
 $("#divB").accordion({active: "none",collapsible:true, animate: 700, heightStyle:"content", icons:{header:"ui-icon-plus", activeHeader:"ui-icon-minus"}});
 
+$("#popUpAuth").dialog({draggable: false, closeOnEscape: false, modal: true});
 
+$("#closeButton").click( function(){
+$("#popUpAuth").hide();
+});
 
 });
 
