@@ -188,11 +188,15 @@
 	margin: 2px 0 0 0;
 	padding: .5em .5em .5em .7em;
 	font-size: 100%;
+	width:50%;
+	margin-bottom:10px;
 }
+
 .ui-accordion .ui-accordion-content {
 	padding: 1em 2.2em;
 	border-top: 0;
 	overflow: auto;
+	width:50%;
 }
 .ui-autocomplete {
 	position: absolute;
@@ -883,4 +887,19 @@ button.ui-button::-moz-focus-inner {
 }
 body .ui-tooltip {
 	border-width: 2px;
+}
+
+
+
+
+@media (max-width:600px){
+
+.ui-accordion .ui-accordion-header {
+	width:100%;
+	margin-bottom:20px;
+}
+.ui-accordion .ui-accordion-content {
+	width:100%;
+}
+	
 }
