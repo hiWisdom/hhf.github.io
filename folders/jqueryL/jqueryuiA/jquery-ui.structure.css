@@ -181,23 +181,29 @@
 	-ms-touch-action: none;
 	touch-action: none;
 }
+
 .ui-accordion .ui-accordion-header {
 	display: block;
 	cursor: pointer;
 	position: relative;
-	margin: 2px 0 0 0;
+	margin: 10px 0 0 0;
 	padding: .5em .5em .5em .7em;
 	font-size: 100%;
 	width:50%;
 	margin-bottom:10px;
 }
 
+
+
 .ui-accordion .ui-accordion-content {
 	padding: 1em 2.2em;
 	border-top: 0;
 	overflow: auto;
 	width:50%;
+	margin:0;
 }
+
+
 .ui-autocomplete {
 	position: absolute;
 	top: 0;
@@ -897,9 +903,11 @@ body .ui-tooltip {
 .ui-accordion .ui-accordion-header {
 	width:100%;
 	margin-bottom:20px;
+	margin:10 0;
 }
 .ui-accordion .ui-accordion-content {
 	width:100%;
+	background-color:white;
 }
 	
 }

@@ -61,9 +61,9 @@ works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
 	border: 1px solid #c5c5c5;
-	background: #f6f6f6;
+	background: #89c557;
 	font-weight: normal;
-	color: #454545;
+	color: white;
 }
 .ui-state-default a,
 .ui-state-default a:link,
@@ -111,8 +111,8 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-	border: 1px solid #003eff;
-	background: #007fff;
+	border: 1px solid white;
+	background: #89c557;
 	font-weight: normal;
 	color: #ffffff;
 }
@@ -191,8 +191,9 @@ a.ui-button:active,
 
 /* states and images */
 .ui-icon {
-	width: 16px;
-	height: 16px;
+	width: 18px;
+	height: 18px;
+	
 }
 .ui-icon,
 .ui-widget-content .ui-icon {
@@ -440,4 +441,27 @@ a.ui-button:active,
 .ui-widget-shadow {
 	-webkit-box-shadow: 0px 0px 5px #666666;
 	box-shadow: 0px 0px 5px #666666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+	.ui-icon {
+	width: 18px;
+	height: 18px;
+	right:20px;
+	float:right;
+}
 }
