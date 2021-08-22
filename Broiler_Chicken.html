@@ -28,7 +28,11 @@
 
 
 <style>
-
+*{font-family:LibreFranklin}
+@font-face{
+src:url(folders/fontawesome/fonts/Libre_Franklin/LibreFranklin.ttf);
+font-family:LibreFranklin;
+}
 #header-navigation-menu{border:1px grove black; width:100%; float:left; margin-top:-10px; margin-right:10%;color:white;}
 
 
@@ -80,7 +84,7 @@ MAIN{}
 
 #content-date-update{background-color:#89c557;color:white;border-radius:100%;text-align:center; height:20px; width:150px;}
 
-.content-date-update{color:#89c557;font-weight:bolder;}
+.content-date-update{color:white;font-weight:bolder;}
 
 .footer-panels-images{display:flex;}
 
@@ -93,9 +97,12 @@ MAIN{}
 .web-footer{background:#89c557;}
 
 
+#quick-links, .dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black}
+
+.font-hello{font-family:PaletteMosaic;}
 @font-face{
-src:url(folders/fontawesome/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
-font-family:LibreFranklin-VariableFont_wght;
+src:url(folders/fontawesome/fonts/PaletteMosaic-Regular.ttf	);
+font-family:PaletteMosaic;
 }
 
 @media (max-width:600px) {
@@ -304,9 +311,17 @@ img{width:180px; height:11vh;}
 
 <FOOTER class="container-fluid web-footer">
 
+
+<div class="container website-footerA" id="quick-links">
+<h3 class="lead font-hello" style="font-weight:bolder;font-size:50px;">Quicklinks.</h3>
+<a href="Day_Old_Broiler_Chicken.html" class="quick-links dayoldchicken-quick-link">Day old chicken</a> &nbsp&nbsp <a href="Broiler_Chicken.html" class="quick-links broiler-quick-link">Broiler Chicken</a> &nbsp&nbsp <a href="" class="quick-links layer-quick-link">Layer Chicken</a> &nbsp&nbsp <a href="" class="quick-links eggproduction-quick-link">Egg production</a> &nbsp&nbsp <a href="" class="quick-links ourservice-quick-link">Our Services</a> &nbsp&nbsp <a href="" class="quick-links ourmarket-quick-link">Our Market</a> &nbsp&nbsp <a href="" class="quick-links productwarranty-quick-link">Product Warranty</a> &nbsp&nbsp <a href="" class="quick-links servicewarranty-quick-link">Service Warranty</a> &nbsp&nbsp <a href="" class="quick-links contactus-quick-link">Contact us</a> &nbsp&nbsp <a href="" class="quick-links policy-quick-link">Policy</a> &nbsp&nbsp <a href="" class="quick-links feebackform-quick-link">Feedback Form</a>
+</div>
+
+
+
 <div class="container website-footer" id="website-footer">
 <BR><BR>
-<div class="quick-links"><span style="color:white;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-F"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-I"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank" class="marketing-links" id="marketing-links-W"><span style="color:white;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:white;"></i></a><BR> 
+<div class="quick-links"><span style="color:white;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html"  target="_blank" class="marketing-links" id="marketing-links-F"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html"  target="_blank" class="marketing-links" id="marketing-links-I"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank" class="marketing-links" id="marketing-links-W"><span style="color:white;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:white;"></i></a><BR> 
 &nbsp  <p class="content-date-update"><mark>&copy </mark> <mark id="javascripted-content-date-update"><script>var todayDate = new Date(); var shortDate = todayDate.toDateString(); document.write(shortDate);</script></mark><samp>- Healthy Harvester Farms.</samp></p></div>
 </div>
 

@@ -28,8 +28,13 @@
 
 
 <style>
+*{font-family:LibreFranklin}
+@font-face{
+src:url(folders/fontawesome/fonts/Libre_Franklin/LibreFranklin.ttf);
+font-family:LibreFranklin;
+}
 
-#header-navigation-menu{border:1px grove black; width:30%; float:right; margin-top:-87px; margin-right:10%;color:white;}
+#header-navigation-menu{border:1px groove #89c557; width:50%; float:right; margin-top:-87px; margin-right:-10px;color:white;}
 
 .nav-item .nav-link{font-size:19px;}
 
@@ -72,7 +77,7 @@ MAIN{}
 
 #content-date-update{background-color:#89c557;color:white;border-radius:100%;text-align:center; height:20px; width:150px;}
 
-.content-date-update{color:#89c557;font-weight:bolder;}
+.content-date-update{color:white;font-weight:bolder;}
 
 .footer-panels-images{display:flex;}
 
@@ -83,11 +88,19 @@ MAIN{}
 .footer-content-decoration ,h5{line-height:2em;}
 
 
-@font-face{
-src:url(folders/fontawesome/fonts/Libre_Franklin/LibreFranklin-VariableFont_wght.ttf);
-font-family:LibreFranklin-Italic-VariableFont_wght;
-}
 
+
+.web-footer{background:#89c557;}
+
+
+#quick-links, .dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black}
+
+.font-hello{font-family:PaletteMosaic;}
+@font-face{
+src:url(folders/fontawesome/fonts/PaletteMosaic-Regular.ttf	);
+font-family:PaletteMosaic;
+}
+/*folders/fonts/PaletteMosaic-Regular.ttf*/
 
 @media (max-width:600px) {
 
@@ -131,10 +144,6 @@ img{width:180px; height:11vh;}
 <BODY>
 
 
-<script>
- alert("Website Undergoing Maintance. ");
-
-</script>
 
 
 
@@ -154,13 +163,16 @@ img{width:180px; height:11vh;}
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a style="color:white;" class="nav-link active" aria-current="page" href="#div"><i class="fas fa-link"></i>&nbsp About us</a>
+          <a style="color:white;" class="nav-link active" aria-current="page" href="#div"><i class="fas fa-folder"></i>&nbsp About us</a>
         </li>
         <li class="nav-item">
           <a style="color:white;" class="nav-link" href="#website-footer"><i class="fas fa-contact"></i>&nbsp Contact us</a>
         </li>
         <li class="nav-item">
           <a style="color:white;" class="nav-link" href="#video-homepage"><i class="fas fa-home"></i>&nbsp Home</a>
+        </li>
+		 <li class="nav-item">
+          <a style="color:white;" class="nav-link" href="#quick-links"><i class="fas fa-link"></i>&nbsp Quicklinks</a>
         </li>
 		
 		</ul>
@@ -279,13 +291,13 @@ img{width:180px; height:11vh;}
 	  
 	  
 
-	<!--<div class="carousel-item">
+	<div class="carousel-item">
 	<div id="welcome_advert2"> 
 	  <div class="container">
 <h3><span class="message2 welcome-message"><b>PART OF OUR SUSTAINABLE DEVELOPNMENT GOALS IS ZERO HUNGER,<br> we are promoting Food Security in our communities from Zero <mark>0</mark> To One Hundred <mark>100</mark> Percentage <mark>100%</mark> </b><span></h3>
 	  </div>
 	  </div>
-	  </div>--->
+	  </div>
 
 
 
@@ -331,6 +343,7 @@ img{width:180px; height:11vh;}
 	
 
 <FOOTER class="container-fluid web-footer">
+<BR><BR>
 <div id="shortCut-footer-position">
 <div id="div" class="websiteContent">
 
@@ -373,7 +386,7 @@ We produce Live Broiler Chickens that Weigh <mark>6</mark> <mark>-</mark> <mark>
 				</div>
 			
 			
-				<div class="products-images"><a href="Broiler_Chicken.htm">
+				<div class="products-images"><a href="Broiler_Chicken.html">
 				<h5 class="products-images-title"><samp>Table Size Broiler Chicken</samp></h5><sub><p><mark> enquires/ order now/ read more <i class="fas fa-facbook"></i></mark></p></sub><br>
 				<img class="footer-products-image-display" src="folders/images/our-products/p2.jpg">
 				<h6>Our Table Size Broiler chickens are raise from day old. They are happily raise in an healthy enviroment to provide consumers with the best quality. They weigh <mark>6</mark> <mark>-</mark> <mark>9</mark> <mark>K G</mark></h6>
@@ -535,11 +548,6 @@ We produce Live Broiler Chickens that Weigh <mark>6</mark> <mark>-</mark> <mark>
 <BR>
 
 
-<div class="container website-footerA">
-
-	
-
-</div>
 
 
 
@@ -552,7 +560,14 @@ We produce Live Broiler Chickens that Weigh <mark>6</mark> <mark>-</mark> <mark>
 
 <div class="container website-footer" id="website-footer">
 <BR><BR>
-<div class="quick-links"><span style="color:#89c557;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-F"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-I"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank" class="marketing-links" id="marketing-links-W"><span style="color:#25d366;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:#25d366;"></i></a><BR> 
+
+<div class="container website-footerA" id="quick-links">
+<h3 class="lead font-hello" style="font-weight:bolder;font-size:50px;">Quicklinks.</h3>
+<a href="Day_Old_Broiler_Chicken.html" class="quick-links dayoldchicken-quick-link">Day old chicken</a> &nbsp&nbsp <a href="Broiler_Chicken.html" class="quick-links broiler-quick-link">Broiler Chicken</a> &nbsp&nbsp <a href="" class="quick-links layer-quick-link">Layer Chicken</a> &nbsp&nbsp <a href="" class="quick-links eggproduction-quick-link">Egg production</a> &nbsp&nbsp <a href="" class="quick-links ourservice-quick-link">Our Services</a> &nbsp&nbsp <a href="" class="quick-links ourmarket-quick-link">Our Market</a> &nbsp&nbsp <a href="" class="quick-links productwarranty-quick-link">Product Warranty</a> &nbsp&nbsp <a href="" class="quick-links servicewarranty-quick-link">Service Warranty</a> &nbsp&nbsp <a href="" class="quick-links contactus-quick-link">Contact us</a> &nbsp&nbsp <a href="" class="quick-links policy-quick-link">Policy</a> &nbsp&nbsp <a href="" class="quick-links feebackform-quick-link">Feedback Form</a>
+</div>
+
+
+<div class="quick-links"><span style="color:white;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-F"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html" class="marketing-links" id="marketing-links-I"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank" class="marketing-links" id="marketing-links-W"><span style="color:white;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:white;"></i></a><BR> 
 &nbsp  <p class="content-date-update"><mark>&copy </mark> <mark id="javascripted-content-date-update"><script>var todayDate = new Date(); var shortDate = todayDate.toDateString(); document.write(shortDate);</script></mark><samp>- Healthy Harvester Farms.</samp></p></div>
 </div>
 
