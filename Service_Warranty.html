@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="folders/jqueryL/jqueryuiA/jquery-ui.css">
 <link rel="stylesheet" href="folders/jqueryL/jqueryuiA/jquery-ui.structure.css">
 <link rel="stylesheet" href="folders/jqueryL/jqueryuiA/jquery-ui.theme.css">
+<link rel="stylesheet" href="hhf.css"/>
 
 
 <script src="folders/bootstrap/js/bootstrap.js"></script>
@@ -27,135 +28,6 @@
 
 
 
-<style>
-*{font-family:SourceCodePro-Medium}
-@font-face{
-src:url(folders/fontawesome/fonts/Source-Code/SourceCodePro-Medium.ttf);
-font-family:SourceCodePro-Medium;
-}
-
-
-
-#header-navigation-menu{border:1px grove black; width:100%; float:left; margin-top:-10px; margin-right:10%;color:white;}
-
-
-aside{border:1px solid black; width:18%; height:30%;background:#bbb;overflow:scroll;}
-
-content{border:1px solid white; width:80%; height:100%;float:right;background-image:url(folders/images/our-services/it_poljoprivreda_271117_tw630.jpg);}
-
-.article-header{background:#89c557; border:1px solid white; color:white;}
-
-
-.nav-item .nav-link{font-size:19px;}
-
-img{max-width:100%; height:18vh;}
-
-a{text-decoration:none;}
-
-MAIN{}
-
-.website-header1{height:18vh;background:#89c557;border:;width:100%;background:cover; }
-
-.vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:150vh;border:none;}
-
-
-
-
-.message1{color:#04AA6D;}
-.message2{color:white;}
-.message3{color:red;font-size:30px;}
-
-#message4{text-align:center;color:#04AA6D;}
-
-.contents{background:white;}
-
-.website-footer{}
-.website-footerA-header{color:white;}
-.website-footerA-header:hover{color:black;}
-
-.decicon:hover{transform:scale(2) rotate(-20deg);}
-
-.welcome-message {line-height:2em;}
-
-.product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New;}
-
-.footer-panels-images{background-color:rgba(0,0,21,); margin:0; padding:15px 25px;border:1px solid black;}
-
-.products-images {border:1px solid black;margin:10px; padding:15px 25px; width:300px}
-
-.footer-products-image-display{width:100%; height:25vh;}
-
-#content-date-update{background-color:#89c557;color:white;border-radius:100%;text-align:center; height:20px; width:150px;}
-
-.content-date-update{color:white;font-weight:bolder;}
-
-.footer-panels-images{display:flex;}
-
-#marketing-links-F:hover{text-decoration:underline 3px #1877f2;}
-#marketing-links-I:hover{text-decoration:underline 3px #c32aa3;}
-#marketing-links-W:hover{text-decoration:underline 3px #25d366;}
-
-.footer-content-decoration ,h5{line-height:2em;}
-
-.web-footer{background:#89c557;}
-
-
-.font-hello{color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black;}
-.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;}
-
-.font-hello{font-family:PaletteMosaic;}
-@font-face{
-src:url(folders/fontawesome/fonts/PaletteMosaic-Regular.ttf	);
-font-family:PaletteMosaic;
-}
-
-
-.hhf_quicklinks_design{display:none}
-
-
-@media (max-width:600px) {
-
-
-#header-navigation-menu{border:; width:40%; float:right; margin-top:-60px; margin-right:-10px; padding:0%;}
-
-aside{display:none;}
-
-content{border:1px solid black; width:100%; background:#fff; float:none;}
-
-
-#navbarSupportedContent{border:; width:100%; margin-top:8px; margin-left:0px; margin-right:0px; padding:0px; background:#89c557;}
-
-#navbar-button{margin-right:auto; margin-left:auto;}
- 
-.bars-decoration{font-size:38px; color:white; position:relative;left:57px;}
-
-.navbar-nav{text-align:center;}
-
-.nav-item .nav-link{color:#015ed5;font-size:18px;}
-
-.welcome_advert{z-index:-1;}
-
-.website-header1{height:11vh; }
-
-img{width:180px; height:11vh;}
-
-.footer-panels-images{flex-direction:column;}
-
-.footer-panels-images{background-color:rgba(0,0,21,); padding:0;margin:0;border:1px solid #89c557;}
-
-.products-images {border:none;margin:0;width:100%;padding:0; }
-
-.products-images .footer-products-image-display{width:50vh; height:30vh;}
-
-.web-footer{margin:10 0; background-image:url(chick-banner.jpg); background-position:center; background-repeat:no-repeat; background-size:cover;}
-
-#quick-links-decoration{display:grid;}
-
-.hhf_quicklinks_design{display:grid;float:right}
-
-}
-
-</style>
 
 </HEAD>
 
@@ -200,7 +72,7 @@ img{width:180px; height:11vh;}
 
 
 
-  <div class="container navbar navbar-expand-lg navbar-light bg-outline-success" id="header-navigation-menu">
+  <div class="container navbar navbar-expand-lg navbar-light bg-outline-success" id="header-navigation-menu-links">
 	<button style="border:none;" id="navbar-button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <i class="fas fa-bars bars-decoration"></i>
     </button>
@@ -285,29 +157,29 @@ img{width:180px; height:11vh;}
 <h3 class="lead font-hello" style="font-weight:bolder;font-size:50px;">Quicklinks.</h3>
 <BR>
 <div id="quick-links-decoration">
-<a href="Day_Old_Broiler_Chicken.html" class="quick-links dayoldchicken-quick-link">Day old chicken <img src="folders/images/Day_Old_Chicken/productsAdvert_E.jpg" alt="HEALTHY HARVESTER FARMS DAYOLD CHICKEN" title="Healthy Harvester Farms Day Old Chicken" width="" height="" id="Healthy_Harvester_Farms_Day_Old_Chicken_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Day_Old_Broiler_Chicken.html" class="quick-links dayoldchicken-quick-link"><p class="quick-links-word-design">Day old chicken</p> <img src="folders/images/Day_Old_Chicken/productsAdvert_E.jpg" alt="HEALTHY HARVESTER FARMS DAYOLD CHICKEN" title="Healthy Harvester Farms Day Old Chicken" width="" height="" id="Healthy_Harvester_Farms_Day_Old_Chicken_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Broiler_Chicken.html" class="quick-links broiler-quick-link">Broiler Chicken <img src="folders/images/our-products/broiler1.jpg" alt="HEALTHY HARVESTER FARMS BROILER CHICKEN" title="Healthy Harvester Farms Broiler Chicken" width="" height="" id="Healthy_Harvester_Farms_Broiler_Chicken_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp
+<a href="Broiler_Chicken.html" class="quick-links broiler-quick-link"><p class="quick-links-word-design">Broiler Chicken</p> <img src="folders/images/our-products/broiler1.jpg" alt="HEALTHY HARVESTER FARMS BROILER CHICKEN" title="Healthy Harvester Farms Broiler Chicken" width="" height="" id="Healthy_Harvester_Farms_Broiler_Chicken_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp
 
-<a href="Layer_Chicken.html" class="quick-links layer-quick-link">Layer Chicken <img src="folders/images/our-products/p1.jpg" alt="HEALTHY HARVESTER FARMS LAYER CHICKEN" title="Healthy Harvester Farms Layer Chicken" width="" height="" id="Healthy_Harvester_Farms_Layer_Chicken_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Layer_Chicken.html" class="quick-links layer-quick-link"><p class="quick-links-word-design">Layer Chicken</p> <img src="folders/images/our-products/p1.jpg" alt="HEALTHY HARVESTER FARMS LAYER CHICKEN" title="Healthy Harvester Farms Layer Chicken" width="" height="" id="Healthy_Harvester_Farms_Layer_Chicken_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Eggs.html" class="quick-links eggproduction-quick-link">Egg production <img src="folders/images/our-products/eggs.jpg" alt="HEALTHY HARVESTER FARMS EGGS" title="Healthy Harvester Farms Eggs" width="" height="" id="Healthy_Harvester_Farms_Eggs_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Eggs.html" class="quick-links eggproduction-quick-link"><p class="quick-links-word-design">Egg production</p> <img src="folders/images/our-products/eggs.jpg" alt="HEALTHY HARVESTER FARMS EGGS" title="Healthy Harvester Farms Eggs" width="" height="" id="Healthy_Harvester_Farms_Eggs_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Our_Services.html" class="quick-links ourservice-quick-link">Our Services <img src="folders/images/our-services/servicesStatus.png" alt="SERVICES AT HEALTHY HARVESTER FARMS" title="Services offered at Healthy Harvester Farms" width="" height="" id="Healthy_Harvester_Farms_services_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Our_Services.html" class="quick-links ourservice-quick-link"><p class="quick-links-word-design">Our Services</p> <img src="folders/images/our-services/servicesStatus.png" alt="SERVICES AT HEALTHY HARVESTER FARMS" title="Services offered at Healthy Harvester Farms" width="" height="" id="Healthy_Harvester_Farms_services_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Our_Market.html" class="quick-links ourmarket-quick-link">Our Market <img src="folders/images/our-market/marketStatus.png" alt="HEALTHY HARVESTER FARMS MARKET PLACE" title="Product Market at Healthy Harvester Farms" width="" height="" id="Healthy_Harvester_Farms_Market_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Our_Market.html" class="quick-links ourmarket-quick-link"><p class="quick-links-word-design">Our Market</p> <img src="folders/images/our-market/marketStatus.png" alt="HEALTHY HARVESTER FARMS MARKET PLACE" title="Product Market at Healthy Harvester Farms" width="" height="" id="Healthy_Harvester_Farms_Market_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Product_Warranty.html" class="quick-links productwarranty-quick-link">Product Warranty <img src="folders/images/warranty/warrantyStatus.png" alt="HEALTHY HARVESTER FARMS PRODUCT WARRANTY" title="Healthy Harvester Farms Products Warranty" width="" height="" id="Healthy_Harvester_Farms_Service_Warranty_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Product_Warranty.html" class="quick-links productwarranty-quick-link"><p class="quick-links-word-design">Product Warranty</p> <img src="folders/images/warranty/warrantyStatus.png" alt="HEALTHY HARVESTER FARMS PRODUCT WARRANTY" title="Healthy Harvester Farms Products Warranty" width="" height="" id="Healthy_Harvester_Farms_Service_Warranty_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Service_Warranty.html" class="quick-links servicewarranty-quick-link">Service Warranty <img src="folders/images/warranty/warrantyStatus.png" alt="HEALTHY HARVESTER FARMS SERVICE WARRANTY" title="Healthy Harvester Farms Service Warranty" width="" height="" id="Healthy_Harvester_Farms_Service_Warranty_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Service_Warranty.html" class="quick-links servicewarranty-quick-link"><p class="quick-links-word-design">Service Warranty</p> <img src="folders/images/warranty/warrantyStatus.png" alt="HEALTHY HARVESTER FARMS SERVICE WARRANTY" title="Healthy Harvester Farms Service Warranty" width="" height="" id="Healthy_Harvester_Farms_Service_Warranty_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Contact_us.html" class="quick-links contactus-quick-link">Contact us <img src="folders/images/contact-us/Contact_Us.gif" alt="CONTACT US AT HEALTHY HARVESTER FARMS" title="Contact us at Healthy Harvester Farms" width="" height="" id="Healthy_Harvester_Farms_Contact_Us_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Contact_us.html" class="quick-links contactus-quick-link"><p class="quick-links-word-design">Contact us</p> <img src="folders/images/contact-us/Contact_Us.gif" alt="CONTACT US AT HEALTHY HARVESTER FARMS" title="Contact us at Healthy Harvester Farms" width="" height="" id="Healthy_Harvester_Farms_Contact_Us_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Policy.html" class="quick-links policy-quick-link">Policy <img src="folders/images/our-policy/policyStatus.png" alt="HEALTHY HARVESTER FARMS POLICY" title="Healthy Harvester Farms Policy" width="" height="" id="Healthy_Harvester_Farms_Policy_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
+<a href="Policy.html" class="quick-links policy-quick-link"><p class="quick-links-word-design">Policy</p> <img src="folders/images/our-policy/policyStatus.png" alt="HEALTHY HARVESTER FARMS POLICY" title="Healthy Harvester Farms Policy" width="" height="" id="Healthy_Harvester_Farms_Policy_quicklink" class="hhf_quicklinks_design"/></a> &nbsp&nbsp 
 
-<a href="Feedback_Form.html" class="quick-links feebackform-quick-link">Feedback Form <img src="folders/images/feedback/we-really-do-value-your-feedback-we-value.jpg" alt="we really do value your feedback we value" title="we really do value your feedback we value" width="" height="" id="Healthy_Harvester_Farms_Feedback_quicklink" class="hhf_quicklinks_design"/></a>
+<a href="Feedback_Form.html" class="quick-links feebackform-quick-link"><p class="quick-links-word-design">Feedback Form</p> <img src="folders/images/feedback/we-really-do-value-your-feedback-we-value.jpg" alt="we really do value your feedback we value" title="we really do value your feedback we value" width="" height="" id="Healthy_Harvester_Farms_Feedback_quicklink" class="hhf_quicklinks_design"/></a>
 
-<a href="index.html" class="quick-links feebackform-quick-link">Home <i class="fas fa-home"></i></a>
+<a href="index.html" class="quick-links feebackform-quick-link"><p class="quick-links-word-design">Home page</p></a>
 
 </div>
 </div>
@@ -315,8 +187,10 @@ img{width:180px; height:11vh;}
 
 <div class="container website-footer" id="website-footer">
 <BR><BR>
-<div class="quick-links"><span style="color:white;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html"  target="_blank" class="marketing-links" id="marketing-links-F"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html"  target="_blank" class="marketing-links" id="marketing-links-I"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank" class="marketing-links" id="marketing-links-W"><span style="color:white;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:white;"></i></a><BR> 
-&nbsp  <p class="content-date-update"><mark>&copy </mark> <mark id="javascripted-content-date-update"><script>var todayDate = new Date(); var shortDate = todayDate.toDateString(); document.write(shortDate);</script></mark><samp>- Healthy Harvester Farms.</samp></p></div>
+<div class="quick-links social-media-qiuck-links">
+<span style="color:white;font-size:25px;font-weight:bolder;"><samp>Follow us:</samp></span> &nbsp <a href="healthy-harvester-farms-marketing.html"  target="_blank" class="marketing-links" id="marketing-links-F"><samp>Facebook</samp> <i class="fab fa-facebook-square decicon" style="color:#1877f2;"></i></a> &nbsp <a href="healthy-harvester-farms-marketing.html"  target="_blank" class="marketing-links" id="marketing-links-I"><span style="color:#c32aa3;"><samp>Instagram</samp></span> <i class="fab fa-instagram-square decicon" style="color:#c32aa3;"></i></a> &nbsp <a href="http://api.whatsapp.com/send?phone=+23407052223261" target="_blank" class="marketing-links" id="marketing-links-W"><span style="color:white;"><samp>Whatsapp</samp></span> <i class="fab fa-whatsapp decicon" style="color:white;"></i></a><BR> 
+&nbsp  <p class="content-date-update"><mark>&copy </mark> <mark id="javascripted-content-date-update"><script>var todayDate = new Date(); var shortDate = todayDate.toDateString(); document.write(shortDate);</script></mark><samp>- Healthy Harvester Farms.</samp></p>
+</div>
 </div>
 
 

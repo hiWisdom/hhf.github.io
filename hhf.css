@@ -1,0 +1,351 @@
+
+/*    	HEALTHY HARVESTER FARMS CASCDING STYLE SHEET(CSS) FOR DEVELOPER USE ONLY. WEB DOCUMENT TYPE*/
+
+
+
+
+
+
+
+
+
+/*GENERAL STYLING BEGINS*/
+
+/**{font-family:LibreFranklin}
+@font-face{
+src:url(folders/fontawesome/fonts/LibreFranklin.ttf);
+font-family:LibreFranklin;
+}
+*/
+
+/*GENERAL STYLING ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*INDEX STYLING BEGINS*/
+
+
+
+
+
+#header-navigation-menu{border:1px groove black; width:50%; float:right; margin-top:-87px; margin-right:-10px;color:white;}
+
+.nav-item .nav-link{font-size:19px;}
+
+img{max-width:100%; height:18vh;}
+
+a{text-decoration:none;}
+
+MAIN{}
+
+.website-header1{height:18vh;background:#89c557;border:;width:100%;background:cover; }
+
+.vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:150vh;border:none;}
+
+
+
+
+.message1{color:#04AA6D;}
+.message2{color:white;}
+.message3{color:red;font-size:30px;}
+
+#message4{text-align:center;color:#04AA6D;}
+
+.contents{background:white;}
+
+.website-footer{border:;}
+.website-footerA-header{color:white;}
+.website-footerA-header:hover{color:black;}
+
+.decicon:hover{transform:scale(2) rotate(-20deg);}
+
+.welcome-message {line-height:2em;font-family:RampartOne;}
+h3{font-family:RampartOne;}
+
+/*@font-face{
+src:url(folders/fontawesome/fonts/Rampart/RampartOne.ttf);
+font-family:RampartOne;
+}*/
+
+
+
+.product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New;}
+
+.footer-panels-images{background-color:rgba(0,0,21,); margin:0; padding:15px 25px;border:1px solid black;}
+
+.products-images {border:1px solid black;margin:10px; padding:15px 25px; width:300px}
+
+.footer-products-image-display{width:100%; height:25vh;}
+
+#content-date-update{background-color:#89c557;color:white;border-radius:100%;text-align:center; height:20px; width:150px;}
+
+.content-date-update{color:white;font-weight:bolder;}
+
+.footer-panels-images{display:flex;}
+
+#marketing-links-F:hover{text-decoration:underline 3px #1877f2;}
+#marketing-links-I:hover{text-decoration:underline 3px #c32aa3;}
+#marketing-links-W:hover{text-decoration:underline 3px #25d366;}
+
+.footer-content-decoration ,h5{line-height:2em;}
+
+
+.hhf_quicklinks_design{display:none;}
+
+.web-footer{background:#89c557;}
+
+.quick-links{display:inline-block;}
+
+.font-hello{color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black;}
+.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;}
+
+/*.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link :hover {text-decoration:underline black; color:black;}*/
+
+.font-hello{font-family:PaletteMosaic;}
+
+/*@font-face{
+src:url(folders/fontawesome/fonts/PaletteMosaic-Regular.ttf	);
+font-family:PaletteMosaic;
+}*/
+/*folders/fonts/PaletteMosaic-Regular.ttf*/
+
+@media (max-width:600px) {
+
+
+#header-navigation-menu{border:; width:40%; float:right; margin-top:-60px; margin-right:-10px; padding:0%;}
+
+#navbarSupportedContent{border:; width:100%; margin-top:8px; margin-left:0px; margin-right:0px; padding:0px; background:#89c557;}
+
+#navbar-button{margin-right:auto; margin-left:auto;}
+ 
+.bars-decoration{font-size:38px; color:white; position:relative;left:57px;}
+
+.navbar-nav{text-align:center;}
+
+.nav-item .nav-link{color:#015ed5;font-size:18px;}
+
+.welcome_advert{z-index:-1;}
+
+.website-header1{height:11vh; }
+
+img{width:180px; height:11vh;}
+
+.footer-panels-images{flex-direction:column;}
+
+.footer-panels-images{background-color:rgba(0,0,21,); padding:0;margin:0;border:1px solid #89c557;}
+
+.products-images {border:none;margin:0;width:100%;padding:0; }
+
+.products-images .footer-products-image-display{width:50vh; height:30vh;}
+
+#quick-links-decoration{display:grid;}
+
+.quick-links{display:flex; flex-direction:column; margin-top:50px; position:relative;margin-right:50%;}
+
+
+
+.hhf_quicklinks_design{display:grid;float:right;position:relative;margin-right:auto;margin-left:auto;}
+
+#website-footer{border:;}
+}
+
+
+
+
+
+
+
+/*INDEX STYLING ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ALL LINKS STYLING BEGINS EXCLUDING INDEX*/
+
+#header-navigation-menu-links{border:; width:100%; float:left; margin-top:-10px; margin-right:10%;color:white;}
+
+h1, .article-header{text-align:center;}
+
+aside{border:1px solid black; width:18%; height:30%;background:#bbb;overflow:scroll;}
+
+content{position:relative; border:1px solid white; width:80%; height:100vh; float:right; background-image:url(folders/images/our-services/it_poljoprivreda_271117_tw630.jpg); background-size:cover; background-repeat: no-repeat;}
+
+.article-header{background:#89c557; border:1px solid white; color:white;}
+
+
+.nav-item .nav-link{font-size:19px;}
+
+img{max-width:100%; height:18vh;}
+
+a{text-decoration:none;}
+
+.web-main-links{position:relative;}
+
+.website-header1{height:18vh;background:#89c557;border:;width:100%;background:cover; }
+
+.vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:150vh;border:none;}
+
+
+
+
+.message1{color:#04AA6D;}
+.message2{color:white;}
+.message3{color:red;font-size:30px;}
+
+#message4{text-align:center;color:#04AA6D;}
+
+.contents{background:white;}
+
+.website-footer{}
+.website-footerA-header{color:white;}
+.website-footerA-header:hover{color:black;}
+
+.decicon:hover{transform:scale(2) rotate(-20deg);}
+
+.welcome-message {line-height:2em;}
+
+.product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New;}
+
+.footer-panels-images{background-color:rgba(0,0,21,); margin:0; padding:15px 25px;border:1px solid black;}
+
+.products-images {border:1px solid black;margin:10px; padding:15px 25px; width:300px}
+
+.footer-products-image-display{width:100%; height:25vh;}
+
+#content-date-update{background-color:#89c557;color:white;border-radius:100%;text-align:center; height:20px; width:150px;}
+
+.content-date-update{color:white;font-weight:bolder;}
+
+.footer-panels-images{display:flex;}
+
+#marketing-links-F:hover{text-decoration:underline 3px #1877f2;}
+#marketing-links-I:hover{text-decoration:underline 3px #c32aa3;}
+#marketing-links-W:hover{text-decoration:underline 3px #25d366;}
+
+.footer-content-decoration ,h5{line-height:2em;}
+
+.web-footer{background:#89c557;}
+
+.quick-links{display:inline-block;}
+
+.font-hello{border:1px solid transparent; text-align:center; color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black;}
+.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;}
+
+.font-hello{font-family:PaletteMosaic;}
+
+/*@font-face{
+src:url(folders/fontawesome/fonts/PaletteMosaic-Regular.ttf	);
+font-family:PaletteMosaic;
+}*/
+
+
+.hhf_quicklinks_design{display:none}
+
+
+@media (max-width:600px) {
+
+
+#header-navigation-menu{border:; width:40%; float:right; margin-top:-60px; margin-right:-10px; padding:0%;}
+
+aside{display:none;}
+
+content{border:1px solid black; width:100%; background:#fff; float:none;}
+
+
+#navbarSupportedContent{border:; width:100%; margin-top:8px; margin-left:0px; margin-right:0px; padding:0px; background:#89c557;}
+
+#navbar-button{margin-right:auto; margin-left:auto;}
+ 
+.bars-decoration{font-size:38px; color:white; position:relative;left:57px;}
+
+.navbar-nav{text-align:center;}
+
+.nav-item .nav-link{color:#015ed5;font-size:18px;}
+
+.welcome_advert{z-index:-1;}
+
+.website-header1{height:11vh; }
+
+img{width:180px; height:11vh;}
+
+.footer-panels-images{flex-direction:column;}
+
+.footer-panels-images{background-color:rgba(0,0,21,); padding:0;margin:0;border:1px solid #89c557;}
+
+.products-images {border:none;margin:0;width:100%;padding:0; }
+
+.products-images .footer-products-image-display{width:50vh; height:30vh;}
+
+.web-footer{margin:10 0; background-image:url(chick-banner.jpg); background-position:center; background-repeat:no-repeat; background-size:cover;}
+
+#quick-links-decoration{display:grid;}
+
+.hhf_quicklinks_design{display:grid;float:right}
+
+.quick-links{display:flex; flex-direction:column;}
+
+.quick-links-word-design{text-align:center; border:1px solid transparent}
+
+.social-media-qiuck-links{text-align:center;border:;position:relative; margin-left:auto; margin-right:auto;}
+}
+
+
+
+/*ALL LINKS STYLING ENDS EXCLUDING INDEX*/
