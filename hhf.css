@@ -87,7 +87,7 @@ MAIN{}
 
 .decicon:hover{transform:scale(2) rotate(-20deg);}
 
-.welcome-message {line-height:2em;font-family:RampartOne;}
+.welcome-message {line-height:2em;font-family:RampartOne; border:1px dashed white;}
 h3{font-family:RampartOne;}
 
 /*@font-face{
@@ -96,6 +96,11 @@ font-family:RampartOne;
 }*/
 
 
+#websiteContent1{border:2px solid transparent; border-radius:1em; width:40%;float:right;min-height:5cm;margin-top:-6cm; margin-right:2cm;}
+#websiteContent1A{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm;}
+#websiteContent1B{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm;}
+.websiteContentOnesImageDesign{height:100%; background-repeat: no-repeat; background-size: cover; width:99%;}
+.websiteContentOnesImageDesign:hover{transform:scale(2); transition-property:all; transition-duration:1s; transition-timing-function: ease-in-out; transition-delay:0s;}
 
 .product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New;}
 
@@ -124,7 +129,7 @@ font-family:RampartOne;
 
 .quick-links{display:inline-block;}
 
-.font-hello{color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black;}
+.font-hello{color:white; margin:0; padding:0; justify-content:center; text-decoration:; float:left;}
 .dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;}
 
 /*.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link :hover {text-decoration:underline black; color:black;}*/
@@ -170,7 +175,7 @@ img{width:180px; height:11vh;}
 
 .quick-links{display:flex; flex-direction:column; margin-top:50px; position:relative;margin-right:50%;}
 
-
+#websiteContent1{border:1px solid white;width:100%;float:none; float:right; margin-bottom:1cm; min-height:5cm;margin-top:0%; margin-right:0%;}
 
 .hhf_quicklinks_design{display:grid;float:right;position:relative;margin-right:auto;margin-left:auto;}
 
@@ -350,6 +355,9 @@ img{width:180px; height:11vh;}
 .quick-links-word-design:hover{text-decoration:underline 2px white; transition: all 1s ease-in-out;}
 
 .social-media-qiuck-links{text-align:center;border:;position:relative; margin-left:auto; margin-right:auto;}
+
+.font-hello{float:none;}
+
 }
 
 
