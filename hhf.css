@@ -96,11 +96,13 @@ font-family:RampartOne;
 }*/
 
 
-#websiteContent1{border:2px solid transparent; border-radius:1em; width:40%;float:right;min-height:5cm;margin-top:-6cm; margin-right:2cm;}
-#websiteContent1A{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm;}
-#websiteContent1B{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm;}
+#websiteContent1{border:2px solid transparent; border-radius:1em; width:40%;float:right;min-height:5cm;margin-top:-6cm; margin-right:2cm;display:flex; position:;}
+#websiteContent1A{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm; margin-right:1.5cm;background:white; opacity: 0.5;}
+#websiteContent1B{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm; opacity:0.5;}
 .websiteContentOnesImageDesign{height:100%; background-repeat: no-repeat; background-size: cover; width:99%;}
-.websiteContentOnesImageDesign:hover{transform:scale(2); transition-property:all; transition-duration:1s; transition-timing-function: ease-in-out; transition-delay:0s;}
+#websiteContent1A:hover{transform:scale3d(1.2, 1.1, 1.2); opacity: 1; transition-property:all; transition-duration:1s; transition-timing-function: ease-in-out; transition-delay:0s;}
+#websiteContent1B:hover{transform:scale3d(1.2, 1.1, 1.2); opacity: 1; transition-property:all; transition-duration:1s; transition-timing-function: ease-in-out; transition-delay:0s;}
+.websiteContentText{color:green;text-align:center;background:white; opacity: 0.8; font-size: 100%;}
 
 .product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New;}
 
@@ -175,7 +177,11 @@ img{width:180px; height:11vh;}
 
 .quick-links{display:flex; flex-direction:column; margin-top:50px; position:relative;margin-right:50%;}
 
-#websiteContent1{border:1px solid white;width:100%;float:none; float:right; margin-bottom:1cm; min-height:5cm;margin-top:0%; margin-right:0%;}
+#websiteContent1{border:1px solid transparent;width:100%;float:none; margin-bottom:2cm; min-height:5cm;margin-top:0%; margin-right:0%;flex-direction:column;padding:10px;}
+#websiteContent1A{border:2px solid transparent; border-radius:1em; width:100%;float:none;min-height:5cm;margin-bottom:2cm;}
+#websiteContent1B{border:2px solid transparent; border-radius:1em; width:100%;float:none;min-height:5cm;}
+#websiteContent1A:hover{transform:none;}
+#websiteContent1B:hover{transform:none;}
 
 .hhf_quicklinks_design{display:grid;float:right;position:relative;margin-right:auto;margin-left:auto;}
 
