@@ -339,7 +339,7 @@ content{border:1px solid black; width:100%; background:#fff; float:none;}
 
 .navbar-nav{text-align:center; line-height:2em}
 
-.nav-item .nav-link{font-size:18px;display:flex; margin-left:3.3cm; border:3px solid none; border-top:none; border-right:none; border-left:none;	border-radius: 3cm; line-height:20px;padding:4px;}
+.nav-item .nav-link{font-size:18px;display:flex; margin-left:-web-kit5.5cm; border:3px solid none; border-top:none; border-right:none; border-left:none;	border-radius: 3cm; line-height:20px;padding:8px;}
 
 
 
