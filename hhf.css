@@ -148,9 +148,9 @@ font-family:PaletteMosaic;
 @media (max-width:600px) {
 
 
-#header-navigation-menu{border:1px solid black; width:40%; float:right; margin-top:-60px; margin-right:-10px; padding:0%;}
+#header-navigation-menu{border:1px solid transparent; width:40%; float:right; margin-top:-60px; margin-right:-10px; padding:0%;}
 
-#navbarSupportedContentIndex{border:1px solid #89c557; width:100%; margin-top:8px; margin-right:-2px; padding:0px; background:#89c557;}
+#navbarSupportedContentIndex{border:1px solid transparent; width:100%; margin-top:8px; margin-right:-2px; padding:0px; background:#89c557;}
 
 #navbar-button{margin-right:auto; margin-left:auto;}
  
@@ -169,7 +169,7 @@ img{width:180px; height:11vh;}
 
 .footer-panels-images{flex-direction:column;}
 
-.footer-panels-images{background-color:rgba(0,0,21,); padding:0;margin:0;border:1px solid #89c557;}
+.footer-panels-images{background-color:rgba(0,0,21,); padding:0;margin:0;border:1px solid transparent;}
 
 .products-images {border:none;margin:0;width:100%;padding:0; }
 
@@ -240,11 +240,11 @@ img{width:180px; height:11vh;}
 
 h1, .article-header{text-align:center;}
 
-aside{border:1px solid black; width:18%; height:30%;background:#bbb;overflow:scroll;}
+aside{border:1px solid transparent; width:18%; height:30%;background:#bbb;overflow:scroll;}
 
-content{position:relative; border:1px solid white; width:80%; height:100vh; float:right; background-image:url(folders/images/our-services/it_poljoprivreda_271117_tw630.jpg); background-size:cover; background-repeat: no-repeat;}
+content{position:relative; border:1px solid transparent; width:80%; height:100vh; float:right; background-image:url(folders/images/our-services/it_poljoprivreda_271117_tw630.jpg); background-size:cover; background-repeat: no-repeat;}
 
-.article-header{background:#89c557; border:1px solid white; color:white;}
+.article-header{background:#89c557; border:1px solid transparent; color:white;}
 
 #navbarSupportedContent{border:1px dotted transparent; margin-top:0px; margin-left:;background:#89c557;}
 
@@ -281,9 +281,9 @@ a{text-decoration:none;}
 
 .product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New;}
 
-.footer-panels-images{background-color:rgba(0,0,21,); margin:0; padding:15px 25px;border:1px solid black;}
+.footer-panels-images{background-color:rgba(0,0,21,); margin:0; padding:15px 25px;border:1px solid transparent;}
 
-.products-images {border:1px solid black;margin:10px; padding:15px 25px; width:300px}
+.products-images {border:1px solid transparent;margin:10px; padding:15px 25px; width:300px}
 
 .footer-products-image-display{width:100%; height:25vh;}
 
@@ -304,7 +304,9 @@ a{text-decoration:none;}
 .quick-links{display:inline-block;}
 
 .font-hello{border:1px solid transparent; text-align:center; color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black;}
-.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;}
+.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {
+	color:white; margin:0; padding:0; justify-content:center;
+	}
 
 .font-hello{font-family:PaletteMosaic;}
 
@@ -319,15 +321,15 @@ font-family:PaletteMosaic;
 
 @media (max-width:600px) {
 
-h1{display:none;}
+h1{display:; color:#89c557;}
 
-#navbar-button-others{margin-left:13cm; margin-top:10px}
+#navbar-button-others{margin-left:13cm; margin-top:-50px}
 
-#header-navigation-menu-links{border:; width:600px; float:right; margin-top:-60px; margin-right:-10px; padding:0%;}
+#header-navigation-menu-links{border:; width:600px; float:right; margin-top:-2px; margin-right:-10px; padding:0%;}
 
-aside{display:none;}
+aside{visibility:hidden;}
 
-content{border:1px solid black; width:100%; background:#fff; float:none;}
+content{border:1px solid transparent; width:100%; background:#fff; float:none;}
 
 #breaks{display:none;}
 
