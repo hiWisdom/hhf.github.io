@@ -64,7 +64,9 @@ a{text-decoration:none;}
 
 MAIN{}
 
-.website-header1{height:18vh;background:#89c557;border:;width:100%;background:cover; }
+#company-website-logo-healthyharvesterfarms {height:14vh; width:250px;}
+
+.website-header1{height:14vh;background:#89c557;border:;width:100%;background:cover; }
 
 .vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:150vh;border:none;}
 
@@ -165,6 +167,8 @@ font-family:PaletteMosaic;
 
 .website-header1{height:11vh; }
 
+#company-website-logo-healthyharvesterfarms {height:11vh; width:auto;}
+
 img{width:180px; height:11vh;}
 
 .footer-panels-images{flex-direction:column;}
@@ -256,7 +260,7 @@ a{text-decoration:none;}
 
 .web-main-links{position:relative;}
 
-.website-header1{height:18vh;background:#89c557;border:;width:100%;background:cover; }
+.website-header1{height:;background:#89c557;border:;width:100%;background:cover; }
 
 .vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:150vh;border:none;}
 
