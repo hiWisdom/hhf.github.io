@@ -3960,8 +3960,8 @@ textarea.form-control-lg {
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
-    transition: none;
-  }
+    transition: box-shadow 0.15s ease-in-out;
+}
 }
 .navbar-toggler:hover {
   text-decoration: none;

@@ -55,7 +55,7 @@ font-family:LibreFranklin;
 #header-navigation-menu{border:; width:50%; float:right; margin-top:-87px; margin-right:-10px;color:white;}
 
 .nav-item  .nav-link{color: white; font-size:19px;}
-
+#welcome_advert2{margin-top:20%;}
 .nav-link:hover{text-decoration:underline black 3px; transition-property:all; transition-duration:1s; transition-timing-function:ease-in-out;}
 .menu-icons-decoration:hover{text-decoration:underline black 3px; transition-property:all; transition-duration:1s; transition-timing-function:ease-in-out;}
 img{max-width:100%; height:18vh;}
@@ -129,7 +129,7 @@ font-family:RampartOne;
 
 .hhf_quicklinks_design{display:none;}
 
-.web-footer{background:#89c557;}
+.web-footer{background:#89c557;position:relative}
 
 .quick-links{display:inline-block;}
 
@@ -242,9 +242,9 @@ img{width:180px; height:11vh;}
 
 #header-navigation-menu-links{border:1px dotted transparent; width:70%; float:right; margin-top:-80px;margin-right:5%;color:white;}
 
-h1, .article-header{text-align:center;}
+h1, .article-header{text-align:center; color:white;}
 
-aside{border:1px solid transparent; width:18%; height:30%;background:#bbb;overflow:scroll;}
+aside{border:1px solid transparent; width:18%; height:80vh;background:#bbb;overflow:scroll;}
 
 content{position:relative; border:1px solid transparent; width:80%; height:100vh; float:right; background-image:url(folders/images/our-services/it_poljoprivreda_271117_tw630.jpg); background-size:cover; background-repeat: no-repeat;}
 
@@ -305,6 +305,7 @@ a{text-decoration:none;}
 
 .web-footer{background:#89c557;}
 
+
 .quick-links{display:inline-block;}
 
 .font-hello{border:1px solid transparent; text-align:center; color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black;}
@@ -327,6 +328,8 @@ font-family:PaletteMosaic;
 
 h1{display:; color:#89c557;}
 
+#welcome_advert2{margin-top:50%; place-content:center;}
+
 #navbar-button-others{margin-left:13cm; margin-top:-50px}
 
 #header-navigation-menu-links{border:; width:600px; float:right; margin-top:-2px; margin-right:-10px; padding:0%;}
@@ -345,7 +348,7 @@ content{border:1px solid transparent; width:100%; background:#fff; float:none;}
 
 .navbar-nav{text-align:center; line-height:2em}
 
-.nav-item .nav-link{font-size:18px;display:flex; margin-left:5.5cm; border:3px solid none; border-top:none; border-right:none; border-left:none;	border-radius: 3cm; line-height:20px;padding:8px;}
+.nav-item .nav-link{font-size:18px;display:flex; margin-left:4.2cm; border:3px solid none; border-top:none; border-right:none; border-left:none;	border-radius: 3cm; line-height:20px;padding:8px;}
 
 
 
