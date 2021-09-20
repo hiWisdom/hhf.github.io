@@ -133,11 +133,11 @@
 <h1 style="">Feedback Form</h1>
 
 <article id="articleA">
-<form>
-<input type="text" placeholder="Full Name" width="100" height="20" required/>
-<input type="mail" placeholder="Mail Name" width="100" height="20" required/>
-<textarea col="15" row="10" placeholder="Comment" required/></textarea>
-<input type="submit" value="Submit"/>
+<form id="feedback-form" class="form" method="" action="" onsubmit="">
+<input type="text" id="feedback-form-fullname" class="feedback-form-callback text-dec-feedback" placeholder="Full Name" title="Type your two different names here" width="100" height="20" required/>
+<input type="email" id="feedback-form-email" class="feedback-form-callback text-dec-feedback" placeholder="Mail Name" title="Type Mail here" width="100" height="20" required/>
+<textarea col="15" row="10" id="feedback-form-textarea" class="feedback-form-callback text-dec-comment" title="comment here" placeholder="Comment" required/></textarea>
+<div class="feedback-processing-button" id="processing-feedback-button"><input type="reset" value="Reset" id="feedback-form-reset-button"/>&nbsp&nbsp<input type="submit" value="Submit" id="feedback-form-submit-button"/></div>
 </form>
 </article>
 

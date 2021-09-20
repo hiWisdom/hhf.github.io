@@ -147,6 +147,17 @@ font-family:PaletteMosaic;
 }*/
 /*folders/fonts/PaletteMosaic-Regular.ttf*/
 
+
+/*FEEDBACK FORM DECORATION BEGIN*/
+
+#feedback-form{display:table;width:80%;border:1px solid black;position:relative; margin-right:auto;margin-left:auto;padding:20px;}
+#feedback-form-fullname{}
+#feedback-form-email{}
+#feedback-form-textarea{}
+#processing-feedback-button{display:table;border:1px solid transparent;position:relative; margin-left:10%;}
+.text-dec-feedback, .text-dec-comment{width:80%;margin-left:10%; margin-bottom:5%;border:1px dashed black;}
+/*FEEDBACK FORM DECORATION ENDS*/
+
 @media (max-width:600px) {
 
 
