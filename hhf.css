@@ -5,18 +5,23 @@
 
 
 
+/*    	HEALTHY HARVESTER FARMS CASCDING STYLE SHEET(CSS) FOR DEVELOPER USE ONLY. WEB DOCUMENT TYPE*/
+
+
+
+
+
 
 
 
 
 /*GENERAL STYLING BEGINS*/
 
-/**{font-family:LibreFranklin}
+*{font-family:Raleway-SemiBold}
 @font-face{
-src:url(folders/fontawesome/fonts/LibreFranklin.ttf);
-font-family:LibreFranklin;
+src:url(folders/fontawesome/fonts/Raleway/static/Raleway-SemiBold.ttf);
+font-family:Raleway-SemiBold;
 }
-*/
 
 /*GENERAL STYLING ENDS*/
 
@@ -50,7 +55,7 @@ font-family:LibreFranklin;
 
 
 
-
+#content-content1{width:100%;}
 
 #header-navigation-menu{border:; width:50%; float:right; margin-top:-87px; margin-right:-10px;color:white;}
 
@@ -62,7 +67,7 @@ img{max-width:100%; height:18vh;}
 
 a{text-decoration:none;}
 
-MAIN{}
+MAIN{height:100vh}
 
 #company-website-logo-healthyharvesterfarms {height:14vh; width:250px;}
 
@@ -82,31 +87,93 @@ MAIN{}
 .contents{background:white;}
 
 .website-footer{border:;}
-.website-footerA-header{color:white;}
-.website-footerA-header:hover{color:black;}
+.website-footerA{height:50px;}
+.website-footerA-header{color:black;}
+.website-footerA-header:hover{color:white;}
 
 .quick-links-word-design:hover{text-decoration:underline 2px white; transition: all 1s ease-in-out;}
 
 .decicon:hover{transform:scale(2) rotate(-20deg);}
 
 .welcome-message {line-height:2em;font-family:RampartOne; border:1px dashed white;}
-h3{font-family:RampartOne;}
+h3{font-family:RampartOne; color:#eb933a;}
 
 /*@font-face{
 src:url(folders/fontawesome/fonts/Rampart/RampartOne.ttf);
 font-family:RampartOne;
 }*/
 
+#quick-links-decoration{display:grid; grid-template-columns:auto ; grid-template-rows:auto ; grid-gap: 5px; border:1px solid transparent; float:right; margin-right:-3%; margin-top: -1%; margin-bottom:; height:auto; position:relative;}
+
+.font-hello {
+grid-column:1;
+grid-row:1;
+}
+
+.gridA {
+grid-column:1;
+grid-row:2;
+}
+
+.gridB {
+grid-column:2;
+grid-row:2;
+}
+
+.gridC {
+grid-column:3;
+grid-row:2;
+}
+
+.gridD {
+grid-column:4;
+grid-row:2;
+}
+
+.gridE {
+grid-column:1;
+grid-row:3;
+}
+
+.gridF {
+grid-column:2;
+grid-row:3;
+}
+
+.gridG {
+grid-column:3;
+grid-row:3;
+}
+
+.gridH {
+grid-column:4;
+grid-row:3;
+}
+
+.gridI {
+grid-column:1;
+grid-row:4;
+}
+
+.gridJ {
+grid-column:2;
+grid-row:4;
+}
+
+.gridK {
+grid-column:3;
+grid-row:4;
+}
 
 #websiteContent1{border:2px solid transparent; border-radius:1em; width:40%;float:right;min-height:5cm;margin-top:-6cm; margin-right:2cm;display:flex; position:;}
-#websiteContent1A{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm; margin-right:1.5cm;background:white; opacity: 0.5;}
-#websiteContent1B{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm; opacity:0.5;}
+#websiteContent1A{border:2px solid transparent; border-radius:1em; width:50%;float:right;max-height:3cm; margin-right:1.5cm;background:white; opacity:;}
+#websiteContent1B{border:2px solid transparent; border-radius:1em; width:50%;float:right;min-height:5cm; opacity:;}
 .websiteContentOnesImageDesign{height:100%; background-repeat: no-repeat; background-size: cover; width:99%;}
 #websiteContent1A:hover{transform:scale3d(1.2, 1.1, 1.2); opacity: 1; transition-property:all; transition-duration:1s; transition-timing-function: ease-in-out; transition-delay:0s;}
-#websiteContent1B:hover{transform:scale3d(1.2, 1.1, 1.2); opacity: 1; transition-property:all; transition-duration:1s; transition-timing-function: ease-in-out; transition-delay:0s;}
-.websiteContentText{color:green;text-align:center;background:white; opacity: 0.8; font-size: 100%;}
+/*#websiteContent1B:hover{transform:scale3d(1.2, 1.1, 1.2); opacity: 1; transition-property:all; transition-duration:1s; transition-timing-function: ease-in-out; transition-delay:0s;}*/
+.websiteContentText{color:#89c557;text-align:center;background:white; opacity: 0.8; font-size: 100%; font-weight:bolder;}
 
-.product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New;}
+.product-header, .product-content, .contents-content, .contents{line-height:2em;font-family:Courier New; width:100%;}
 
 .footer-panels-images{background-color:rgba(0,0,21,); margin:0; padding:15px 25px;border:1px solid black;}
 
@@ -126,15 +193,18 @@ font-family:RampartOne;
 
 .footer-content-decoration ,h5{line-height:2em;}
 
+.breaks{display:none;}
+
+.horizontal-line-main{border:4px solid white; width:100%}
+
+.horizontal-line-footer1, .horizontal-line-footer2, .horizontal-line-footer3{border:2px solid white; width:40%}
 
 .hhf_quicklinks_design{display:none;}
 
 .web-footer{background:#89c557;position:relative}
 
-.quick-links{display:inline-block;}
-
-.font-hello{color:white; margin:0; padding:0; justify-content:center; text-decoration:; float:left;}
-.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:0; padding:0; justify-content:center;}
+.font-hello{color:white; margin:0; padding:0; justify-content:center; text-decoration:; margin-left:; float:left;}
+.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {color:white; margin:10px; padding:0; justify-content:center;}
 
 /*.dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link :hover {text-decoration:underline black; color:black;}*/
 
@@ -150,13 +220,31 @@ font-family:PaletteMosaic;
 
 /*FEEDBACK FORM DECORATION BEGIN*/
 
-#feedback-form{display:table;width:80%;border:1px solid black;position:relative; margin-right:auto;margin-left:auto;padding:20px;}
+#feedback-form{display:table;width:80%;border:1px solid #89c557; border-top:none;position:relative; margin-right:auto;margin-left:auto;padding:20px;}
 #feedback-form-fullname{}
 #feedback-form-email{}
 #feedback-form-textarea{}
 #processing-feedback-button{display:table;border:1px solid transparent;position:relative; margin-left:10%;}
-.text-dec-feedback, .text-dec-comment{width:80%;margin-left:10%; margin-bottom:5%;border:1px dashed black;}
+.text-dec-feedback, .text-dec-comment{width:80%;margin-left:10%; margin-bottom:5%;border:;}
+.feedbacks-button{border:2px solid #89c557;color:#89c557;box-sizing:border-box;border-radius:5%;width:100px;}
+#feedback-form-submit-button:hover{background-color:#89c557; color:white;border:2px solid black;}
+#feedback-form-reset-button:hover{background-color:chocolate; color:white;border:2px solid black;}
+@media(max-width:600px){
+		#feedback-form{width:100%;border:none;position:relative; left:0; right:0; margin-right:auto;margin-left:auto;padding:20px; border-radius:5%; background:#f1ffe6; height:50vh; box-shadow:2px 2px 6px 2px #89c557;}
+		.text-dec-feedback{width:100%;height:30px;margin-left:0%; margin-bottom:5%;border:;}
+		.text-dec-comment{width:100%;height:80px;margin-left:0%;margin-bottom:5%;}
+		#processing-feedback-button{display:table;border:1px solid transparent;position:relative; margin-left:20%;}
+
+}
 /*FEEDBACK FORM DECORATION ENDS*/
+
+
+
+
+
+
+
+
 
 @media (max-width:600px) {
 
@@ -190,9 +278,6 @@ img{width:180px; height:11vh;}
 
 .products-images .footer-products-image-display{width:50vh; height:30vh;}
 
-#quick-links-decoration{display:grid;}
-
-.quick-links{display:flex; flex-direction:column; margin-top:50px; position:relative;margin-right:50%;}
 
 #websiteContent1{border:1px solid transparent;width:100%;float:none; margin-bottom:2cm; min-height:5cm;margin-top:0%; margin-right:0%;flex-direction:column;padding:10px;}
 #websiteContent1A{border:2px solid transparent; border-radius:1em; width:100%;float:none;min-height:5cm;margin-bottom:2cm;}
@@ -203,6 +288,11 @@ img{width:180px; height:11vh;}
 .hhf_quicklinks_design{display:grid;float:right;position:relative;margin-right:auto;margin-left:auto;}
 
 #website-footer{border:;}
+
+.website-footerA{height:auto;}
+
+.horizontal-line-footer1, .horizontal-line-footer2, .horizontal-line-footer3{border:2px solid white; width:100%}
+
 }
 
 
@@ -253,15 +343,15 @@ img{width:180px; height:11vh;}
 
 #header-navigation-menu-links{border:1px dotted transparent; width:70%; float:right; margin-top:-80px;margin-right:5%;color:white;}
 
-h1, .article-header{text-align:center; color:white;}
+h1, .article-header{text-align:center; color:#89c557;}
 
-aside{border:1px solid transparent; width:18%; height:80vh;background:#bbb;overflow:scroll;}
+aside{border:1px solid transparent; width:18%; height:50vh;background:#bbb;overflow:scroll;}
 
-content{position:relative; border:1px solid transparent; width:80%; height:100vh; float:right; background-image:url(folders/images/our-services/it_poljoprivreda_271117_tw630.jpg); background-size:cover; background-repeat: no-repeat;}
+content{position:relative; border:1px solid transparent; width:80%; height:100%; float:right; background-image:; background-size:cover; background-repeat: no-repeat;}
 
 .article-header{background:#89c557; border:1px solid transparent; color:white;}
 
-#navbarSupportedContent{border:1px dotted transparent; margin-top:0px; margin-left:;background:#89c557;}
+#navbarSupportedContent{border:1px dotted transparent; margin-top:0px; margin-left:1cm;background:#89c557;}
 
 .nav-item .nav-link{font-size:19px;}
 
@@ -276,7 +366,10 @@ a{text-decoration:none;}
 .vid-bg{position:absolute;right:0;bottom:0;background:cover no-repeat;z-index:-100;min-width:100%;min-height:150vh;border:none;}
 
 
-
+.swiper-container {width:75%; height:300px;background-color:#deeade; box-shadow:2px 2px 2px 1px linear gradient(green green);}
+.companyOverview { width:17%; margin-left:auto;margin-right:auto; color:#70a12d;}
+.product-advert-h3  {font-weight:bolder;color:#70a12d;text-wrap:wrap;}
+.cOvtext {font-size:30px;font-weight:bold;}
 
 .message1{color:#04AA6D;}
 .message2{color:white;}
@@ -287,8 +380,8 @@ a{text-decoration:none;}
 .contents{background:white;}
 
 .website-footer{}
-.website-footerA-header{color:white;}
-.website-footerA-header:hover{color:black;}
+.website-footerA-header{color:black;}
+.website-footerA-header:hover{color:white;}
 
 .decicon:hover{transform:scale(2) rotate(-20deg);}
 
@@ -317,7 +410,6 @@ a{text-decoration:none;}
 .web-footer{background:#89c557;}
 
 
-.quick-links{display:inline-block;}
 
 .font-hello{border:1px solid transparent; text-align:center; color:white; margin:0; padding:0; justify-content:center;text-decoration: underline black;}
 .dayoldchicken-quick-link, .broiler-quick-link, .layer-quick-link, .eggproduction-quick-link, .ourservice-quick-link, .ourmarket-quick-link, .productwarranty-quick-link, .servicewarranty-quick-link, .contactus-quick-link, .policy-quick-link, .feebackform-quick-link {
@@ -332,7 +424,6 @@ font-family:PaletteMosaic;
 }*/
 
 
-.hhf_quicklinks_design{display:none}
 
 
 @media (max-width:600px) {
@@ -379,9 +470,44 @@ img{width:180px; height:11vh;}
 
 .web-footer{margin:10 0; background-image:url(chick-banner.jpg); background-position:center; background-repeat:no-repeat; background-size:cover;}
 
-#quick-links-decoration{display:grid;}
 
-.hhf_quicklinks_design{display:grid;float:right}
+#quick-links-decoration{display:flex; flex-direction:column; border:1px solid transparent; float:none; margin-right:; margin-top: auto; height:auto; position:auto;}
+
+.font-hello {
+}
+
+.gridA {
+flex-grow:1;}
+
+.gridB {
+flex-grow:1;}
+
+.gridC {
+	flex-grow:1;}
+
+.gridD {
+flex-grow:1;}
+
+.gridE {
+flex-grow:1;}
+
+.gridF {
+flex-grow:1;}
+
+.gridG {
+flex-grow:1;}
+
+.gridH {
+flex-grow:1;}
+
+.gridI {
+flex-grow:1;}
+
+.gridJ {
+flex-grow:1;}
+
+.gridK {
+flex-grow:1;}
 
 .quick-links{display:flex; flex-direction:column;}
 
@@ -400,3 +526,39 @@ img{width:180px; height:11vh;}
 
 
 /*ALL LINKS STYLING ENDS EXCLUDING INDEX*/
+
+
+
+
+/*GENERAL STYLING BEGINS*/
+
+/**{font-family:LibreFranklin}
+@font-face{
+src:url(folders/fontawesome/fonts/LibreFranklin.ttf);
+font-family:LibreFranklin;
+}
+*/
+
+/*GENERAL STYLING ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
