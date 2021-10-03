@@ -40,6 +40,9 @@
 
 <BODY>
 
+<div id="overlay">
+<div class="spinner"></div>
+</div>
 
 
 
@@ -539,6 +542,12 @@ img src="50745363_287975095250358_3192967984511451136_o.jpg" class="websiteConte
 document.getElementById("font-hello-style").innerHTML="about us";
 document.getElementById("font-hello-style").style.textDecoration="none";
 
+
+
+var overlay = document.getElementById("overlay");
+window.addEventListener('load', function(){
+overlay.style.display="none";
+});
 
 
 

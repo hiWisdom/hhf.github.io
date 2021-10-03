@@ -55,6 +55,9 @@
 
 
 <BODY>
+<div id="overlay">
+<div class="spinner"></div>
+</div>
 
 
 
@@ -231,6 +234,10 @@
 
 
 
+var overlay = document.getElementById("overlay");
+window.addEventListener('load', function(){
+overlay.style.display="none";
+});
 
 
 
