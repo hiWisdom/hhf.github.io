@@ -41,13 +41,13 @@
 <BODY>
 
 <div id="overlay">
-<div class="spinner"></div>
+<div class="spinner"><div id="loading-event-image"><!---<img src="hhflogo.png" id="" class="" width="20" height="20"/>---></div></div>
 </div>
 
 
 
 
-<HEADER class="container-fluid website-header1 sticky-top">
+<HEADER id="header" class="container-fluid website-header1 sticky-top">
 
 
 <div class="container" id="index">
@@ -92,7 +92,7 @@
 
 
 
-<MAIN class="container-fluid web-main">
+<MAIN id="main" class="container-fluid web-main">
 
 
 <video class="vid-bg" id="video-homepage" autoplay loop muted>
@@ -245,7 +245,7 @@
 
 	
 
-<FOOTER class="container-fluid web-footer">
+<FOOTER id="footer" class="container-fluid web-footer">
 <BR><BR>
 <div id="shortCut-footer-position" class="container">
 <div id="div" class="websiteContent">
@@ -543,10 +543,18 @@ document.getElementById("font-hello-style").innerHTML="about us";
 document.getElementById("font-hello-style").style.textDecoration="none";
 
 
+var headerloading = document.getElementById("header"), mainloading = document.getElementById("main"), footerloading = document.getElementById("footer");
+headerloading.style.display="none";
+mainloading.style.display="none";
+footerloading.style.display="none";
+
 
 var overlay = document.getElementById("overlay");
 window.addEventListener('load', function(){
 overlay.style.display="none";
+headerloading.style.display="block";
+mainloading.style.display="block";
+footerloading.style.display="block";
 });
 
 

@@ -67,7 +67,7 @@
 </HEADER>
 
 
-<HEADER class="container-fluid website-header1 sticky-top">
+<HEADER id="header" class="container-fluid website-header1 sticky-top">
 
 <div class="container">
 <a href="index.html"><img src="hhflogo.png" id="company-website-logo-healthyharvesterfarms"/></a>
@@ -110,7 +110,7 @@
 
 
 
-<MAIN class="container-fluid web-main">
+<MAIN id="main" class="container-fluid web-main">
 
 
 <aside style="position:fixed">
@@ -171,7 +171,7 @@
 
 	
 
-<FOOTER class="container-fluid web-footer">
+<FOOTER id="footer" class="container-fluid web-footer">
 
 
 <div class="container website-footerA" id="quick-links">
@@ -234,11 +234,19 @@
 <script>
 
 
+var headerloading = document.getElementById("header"), mainloading = document.getElementById("main"), footerloading = document.getElementById("footer");
+headerloading.style.display="none";
+mainloading.style.display="none";
+footerloading.style.display="none";
+
+
 var overlay = document.getElementById("overlay");
 window.addEventListener('load', function(){
 overlay.style.display="none";
+headerloading.style.display="block";
+mainloading.style.display="block";
+footerloading.style.display="block";
 });
-
 
 
 
